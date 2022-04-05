@@ -61,6 +61,7 @@ function Home() {
       <section id="section-two"></section>
       <section id="speakers-carousel">
         <Carousel
+          centerMode
           {...{
             showArrows: false,
             infiniteLoop: true,
@@ -72,11 +73,19 @@ function Home() {
             interval: 7000,
             dynamicHeight: false,
             stopOnHover: false,
+            centerSlidePercentage: 30,
           }}
           width="100vw"
-          animationHandler="fade"
-          swipeable={false}
         >
+          <div className="slide-item speaker">
+            <ProfileCard />
+          </div>
+          <div className="slide-item speaker">
+            <ProfileCard />
+          </div>
+          <div className="slide-item speaker">
+            <ProfileCard />
+          </div>
           <div className="slide-item speaker">
             <ProfileCard />
           </div>
