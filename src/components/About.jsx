@@ -17,7 +17,7 @@ function About() {
            </p>
         </div>
         <div>
-           <img className={classes.img} src={pic} alt="nit-image" />
+        <img className={classes.image} src={pic} alt="nit-image" />
         </div>
       </div>
      </div>
@@ -26,7 +26,7 @@ function About() {
     <h3 className={classes.heading}>Our Department</h3>
     <div className={classes.info}>
     <div>
-      <img className={classes.img} src={cseimg} alt="nit-image" />
+      <img className={classes.image} src={cseimg} alt="nit-image" />
     </div>
        <div >
            <p className={classes.text}>
@@ -48,7 +48,7 @@ function About() {
             </p>
          </div>
          <div>
-         <img className={classes.img} src={pic} alt="nit-image" />
+         <img className={classes.image} src={pic} alt="nit-image" />
        </div>
        </div>
       </div>
