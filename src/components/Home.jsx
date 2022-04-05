@@ -1,7 +1,7 @@
 import "../styles/home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import pic from '../assets/nit_image.jpg';
+import ProfileCard from "./ProfileCard";
 function Home() {
   return (
     <>
@@ -17,6 +17,7 @@ function Home() {
             transitionTime: 1000,
             interval: 7000,
             dynamicHeight: false,
+            stopOnHover: false,
           }}
           width="100vw"
           animationHandler="fade"
@@ -58,6 +59,29 @@ function Home() {
         </Carousel>
       </section>
       <section id="section-two"></section>
+      <section id="speakers-carousel">
+        <Carousel
+          {...{
+            showArrows: false,
+            infiniteLoop: true,
+            showStatus: false,
+            showThumbs: false,
+            autoPlay: true,
+            useKeyboardArrows: true,
+            transitionTime: 1000,
+            interval: 7000,
+            dynamicHeight: false,
+            stopOnHover: false,
+          }}
+          width="100vw"
+          animationHandler="fade"
+          swipeable={false}
+        >
+          <div className="slide-item speaker">
+            <ProfileCard />
+          </div>
+        </Carousel>
+      </section>
     </>
   );
 }

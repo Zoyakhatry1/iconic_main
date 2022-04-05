@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -15,7 +15,13 @@
   font-size: 1em;
 }
 .sticky-navbar {
-  position: sticky !important;
+  background-color: #fff;
+}
+.navbar.sticky-navbar div a {
+  color: black;
+}
+.navbar.sticky-navbar div .nav-item:hover:after {
+  background: black;
 }
 .nav-container {
   display: flex;
@@ -83,6 +89,12 @@
 }
 
 @media screen and (max-width: 960px) {
+  .navbar.sticky-navbar div .fas {
+    color: black;
+  }
+  .navbar.sticky-navbar div .nav-menu.active {
+    background: rgba(255, 255, 255, 0.7);
+  }
   .nav-menu {
     display: flex;
     flex-direction: column;

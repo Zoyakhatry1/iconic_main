@@ -1,13 +1,26 @@
 import "../styles/nav.css";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 /* MAKE NAVBAR STICKY WHEN SCROLL-DOWN */
 function NavBar() {
   const [click, setClick] = useState(false);
-
+  const navBar = useRef();
+  useEffect(() => {
+    let header = navBar.current;
+    function myFunction() {
+      if (window.scrollY > 10) {
+        header.classList.add("sticky-navbar");
+      } else if (window.pageYOffset < 10) {
+        header.classList.remove("sticky-navbar");
+      }
+    }
+    window.onscroll = function () {
+      myFunction();
+    };
+  });
   const handleClick = () => setClick(!click);
   return (
-    <nav className="navbar">
+    <nav className="navbar" ref={navBar}>
       <div className="nav-container">
         <Link to="/" className="nav-logo">
           Iconic
