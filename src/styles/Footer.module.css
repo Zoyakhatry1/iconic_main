@@ -1,0 +1,26 @@
+.footer{
+    background-color:#d72645 ;
+    text-align: center;
+    padding:1.6rem;
+}
+.footer_text{
+    font-size: 0.8rem;
+    color:#fff;
+}
+
+@media (min-width:1700px)
+{
+    .footer_text{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:500px)
+{
+  .footer_text{
+      font-size: 0.4rem;
+  }
+  .footer{
+      padding: 1rem;
+  }
+}
