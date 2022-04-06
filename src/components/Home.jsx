@@ -6,6 +6,7 @@ import ProfileCard from "./ProfileCard";
 import TrackCard from "./TrackCard";
 import TrackCard2 from "./TrackCard2";
 import Contact from "./Contact";
+import { Link } from "react-router-dom";
 function Home() {
   const [slidePercent, setSlidePercent] = useState("");
   function setWidth(width) {
@@ -47,21 +48,17 @@ function Home() {
           <div className="slide-item">
             <img src={require("../assets/nit_image.jpg")} alt="" />
             <div className="slide-content">
-              <h1>The next age of Artificial Computing</h1>
-              <h6>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit amet
-                consectetur
-              </h6>
+              <h1>
+                1<sup>st</sup> International Conference on Intelligent Computing
+              </h1>
             </div>
           </div>
           <div className="slide-item">
             <img src={require("../assets/scene.jpg")} alt="" />
             <div className="slide-content">
-              <h1>The next age of Artificial Computing</h1>
-              <h6>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit amet
-                consectetur
-              </h6>
+              <h1>
+                1<sup>st</sup> International Conference on Intelligent Computing
+              </h1>
             </div>
           </div>
           <div className="slide-item">
@@ -70,16 +67,34 @@ function Home() {
               alt=""
             />
             <div className="slide-content">
-              <h1>The next age of Artificial Computing</h1>
-              <h6>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit amet
-                consectetur
-              </h6>
+              <h1>
+                1<sup>st</sup> International Conference on Intelligent Computing
+              </h1>
             </div>
           </div>
         </Carousel>
       </section>
-      <section id="section-two"></section>
+      <section id="section-two">
+        <div className="sub-text">
+          <i>
+            The Ist International Conference on Intelligent Computing by Dept.
+            of Computer Science and Engineering
+          </i>
+        </div>
+        <div className="about-iconic">
+          <img src={require("../assets/nit_image.jpg")} alt="" />
+          <div className="about-text">
+            <div className="text-heading">About Iconic</div>
+            The Ist International Conference on Internaltional Conference on
+            Intelligent Computing (IConIC) is being conducted by the Department
+            of Computer Science and Engineering, National Institute of
+            Technology, Srinagar, India (In Virtual Mode). IConIC- 2022 aims to
+            bring together Academicians, Researchers, Industry Experts,
+            Enthusiasts, and Professionals to explore emerging trends and
+            innovations <Link to="/about">...read more</Link>
+          </div>
+        </div>
+      </section>
       <section id="speakers-carousel">
         <Carousel
           centerMode

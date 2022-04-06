@@ -62,20 +62,10 @@
   .contact-container {
     flex-direction: column;
     text-align: center;
+    font-size: 14px;
   }
   .map-container {
     width: 90%;
-  }
-  .contact-heading {
-    width: 100%;
-    margin-top: 20px;
-  }
-}
-@media (max-width: 737px) {
-  .contact-container {
-    flex-direction: column;
-    text-align: center;
-    font-size: 14px;
   }
   .contact-heading {
     width: 100%;

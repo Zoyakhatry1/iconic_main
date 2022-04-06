@@ -23,7 +23,7 @@
   color: black;
 }
 .navbar.sticky-navbar div .nav-item:hover:after {
-  background: black;
+  background: var(--main-color);
 }
 .nav-container {
   display: flex;
@@ -78,9 +78,11 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: #fff;
+  background: var(--main-color);
 }
-
+.nav-item:hover .nav-links {
+  color: var(--main-color);
+}
 .nav-item .active {
   color: #fff;
   border: 1px solid #fff;
