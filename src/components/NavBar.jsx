@@ -48,6 +48,11 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/venue" className="nav-links" onClick={handleClick}>
+              Venue
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/contact" className="nav-links" onClick={handleClick}>
               Contact Us
             </Link>
