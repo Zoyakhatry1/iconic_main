@@ -22,6 +22,9 @@
     margin-bottom:1rem;
     font-size: 1.1rem;
 }
+.dirimg{
+    height: 257px;
+}
 @media (min-width:1600px)
 {
     .heading{
@@ -36,5 +39,11 @@
     .dirimg{
         width:250px;
         margin: 0;
+    }
+    .heading{
+        font-size:1.2rem;
+    }
+    .name{
+        font-size: 0.8rem;
     }
 }

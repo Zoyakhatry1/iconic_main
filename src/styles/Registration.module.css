@@ -1,6 +1,7 @@
 .registration{
     background-color:#D3D3D3 ;
-    padding:5rem 2rem;
+    padding: 2rem 2rem;
+    padding-top: 5rem;
 }
 .content{
     margin: 2rem auto;
@@ -9,7 +10,7 @@
 .heading{
     text-align: center;
     color:#d72645 ;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .text{
     text-align: center;
@@ -55,6 +56,65 @@
     font-weight: bold;
 }
 
+.fee{
+    margin-top: 2rem;
+    text-align: center;
+}
+.headingfee{
+    font-size: 2rem;
+    color: #d72645;
+}
+.tablecontainer{
+    margin: 2rem auto;
+}
+.table{
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    padding: 0.6rem;
+    color: #666666;
+  }
+.links{
+    text-align: center;
+    margin-top: 4rem;
+}
+.linkscontent{
+    margin: 2rem;
+   
+    line-height:2.5;
+}
+.spanlink{
+    font-weight: bold;
+    color: #666666;
+    font-size: 1.2rem;
+}
+a{
+    color: #666666;
+}
+.note{
+    text-align: center;
+    color: #666666;
+    margin: 2rem;
+    line-height:2;
+    margin-top: 4rem;
+}
+.noteheading{
+    font-size: 1.3rem;
+    margin-bottom:1rem;
+}
+.notepara{
+    font-size: 1.1rem;
+}
+.end{
+    text-align: center;
+    margin-top: 3rem;
+    color: #666666;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 @media (min-width:1600px)
 {
     .heading{
@@ -64,7 +124,7 @@
         font-size:1.5rem ;
     }
     .heading2{
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
     .text2{
         font-size: 1.5rem;
@@ -74,6 +134,33 @@
     }
     .text4{
         font-size: 1.5rem;
+    }
+    .headingfee{
+        font-size: 3rem;
+    }
+    table, th, td {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+      }
+      .linkscontent{
+        margin: 2rem;
+        font-size: 2rem;
+    }
+      .spanlink{
+          font-size: 2rem;
+      }
+      .links{
+          margin-top: 6rem;
+          margin-bottom: 4rem;
+      }
+      .noteheading{
+        font-size: 2rem;
+    }
+    .notepara{
+        font-size: 1.5rem;
+    }
+    .end{
+        font-size: 2rem;
     }
 }
 
@@ -102,4 +189,26 @@
         flex-direction:column;
         margin: 0;
     }
+    table, th, td {
+        padding: 0.4rem;
+      }
+      .linkscontent{
+          margin: 0;
+          font-size: 0.8rem;
+      }
+      .spanlink{
+          font-size: 1rem;
+      }
+      .note{
+          margin: 2rem 0;
+      }
+      .noteheading{
+          font-size: 1.1rem;
+      }
+      .notepara{
+          font-size: 1rem;
+      }
+      .end{
+          font-size: 1rem;
+      }
 }

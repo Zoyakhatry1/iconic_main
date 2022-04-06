@@ -13,11 +13,11 @@ function About() {
            <p className={classes.text}>
            National Institute of Technology, Srinagar is one of the premier Educational Institutes in the Northern Regions of the country. It was established in 1960 and has been one of the eighteen Regional Engineering Colleges sponsored by the Govt. of India during the 2nd Plan. The Institute acquired the status of National Institute of Technology with deemed to be University status during August, 2003 and attained full autonomy in its Academics.
 
-           The Institute is situated at the the banks of world-famous Dal Lake, with the far-famed Hazratbal Shrine on other side of the campus. NIT Srinagar is a residential Institute with accommodation facility in Hostels and Staff-Quarters. There are four Boys and one Girls hostel which swallops about 1500 boys and 200 girls. Besides running the B.Tech Programme the Institute also offers M.Tech programme in many streams.In addition to that a large number of students are registered for M.Phil and Ph.D Programmes.
+           The Institute is situated at the the banks of world-famous Dal Lake, with the far-famed Hazratbal Shrine on other side of the campus. NIT Srinagar is a residential Institute with accommodation facility in Hostels and Staff-Quarters. Besides running the B.Tech Programme the Institute also offers M.Tech programme in many streams.In addition to that a large number of students are registered for M.Phil and Ph.D Programmes.
            </p>
         </div>
         <div>
-           <img className={classes.img} src={pic} alt="nit-image" />
+        <img className={classes.image} src={pic} alt="nit-image" />
         </div>
       </div>
      </div>
@@ -26,13 +26,18 @@ function About() {
     <h3 className={classes.heading}>Our Department</h3>
     <div className={classes.info}>
     <div>
-      <img className={classes.img} src={cseimg} alt="nit-image" />
+      <img className={classes.image} src={cseimg} alt="nit-image" />
     </div>
        <div >
            <p className={classes.text}>
-           The Department of Computer Science& Engineering was started in the year 2007, offering four year undergraduate courses, wherein undergraduate students are imparted knowledge in multitude of specialties, including: computer Architecture, Network, Operating System, Data Structure and Algorithm, Theory of Computation, Numerical analysis, Compiler design, Graphics, Artificial intelligence, Database Management System, Data mining, Software Engineering, Human computer interaction, etc.
-
-           The Department of Computer Science and Engineering embodies the Institute's tradition of excellence as a world-class leader in computer science and engineering education and research. CSE is in a period of exciting growth and opportunity. In the current ever evolving industrial scenario contents delivered to the students are regularly updated by the faculty members who have themselves been at the helm of path breaking research and innovations. 
+           The Department of Computer Science& Engineering embodies the Institute's tradition of excellence as a world-class leader
+           in computer science and engineering education and research. CSE is in a period of exciting growth and opprtunity.
+           In the current ever evolving industrial scenario contents delivered to the students are regularly updated by the faculty
+           members who have themselves been at the helm of path breaking research and innovations. In addition to academic work, the CSE department also has 
+           computer science research programmes (for a full listing of specialities visit Research Areas) supported through government and industry funding.
+           Faculty research helps define and expand the current and future use of technology. <br /> <span className={classes.span}>Mission and Vision : </span> At NIT Srinagar, we believe that their is no dearth of scope
+           for bright and vibrant stars in the firmament. We therefore persistently strive to inculcate the requisite acumen in the budding researches, innovators, enterpreneurs making them thorough and competent
+           professionals, enabling them to take up and face any challenge in the industry or research organisation they serve.
            </p>
         </div>
       </div>
@@ -48,7 +53,7 @@ function About() {
             </p>
          </div>
          <div>
-         <img className={classes.img} src={pic} alt="nit-image" />
+         <img className={classes.image} src={pic} alt="nit-image" />
        </div>
        </div>
       </div>
