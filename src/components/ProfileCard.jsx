@@ -7,9 +7,11 @@ function ProfileCard() {
           <div id="img"></div>
         </div>
       </div>
-      <div className="content">
+      <div className="card-content">
         <h2>Name</h2>
-        <p>Web developer</p>
+        <p>About the speaker here</p>
+        <p>About the speaker here</p>
+        <p>About the speaker here</p>
         <div className="links">
           <a href="/">
             <i className="fab fa-facebook"></i>

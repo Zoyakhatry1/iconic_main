@@ -17,7 +17,7 @@ function NavBar() {
     window.onscroll = function () {
       myFunction();
     };
-  });
+  }, []);
   const handleClick = () => setClick(!click);
   return (
     <nav className="navbar" ref={navBar}>
@@ -43,7 +43,11 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/registration" className="nav-links" onClick={handleClick}>
+            <Link
+              to="/registration"
+              className="nav-links"
+              onClick={handleClick}
+            >
               Registration
             </Link>
           </li>

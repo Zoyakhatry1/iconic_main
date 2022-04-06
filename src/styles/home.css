@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
 .main-carousel {
   margin: 0%;
   padding: 0%;
@@ -30,7 +31,7 @@
 }
 .slide-content h6 {
   width: 60%;
-  color: var(--main-color);
+  color: yellow;
   margin-top: 20px;
   font-size: 0.4em;
   font-weight: 400;
@@ -45,19 +46,72 @@
   left: 50%;
   font-size: 2em;
 }
+
+/* #################################### */
+/* ########## SECTION TWO ############ */
+/* #################################### */
+
+#section-two {
+  background: #d3d3d3;
+  min-height: 50vh;
+}
+
+/* ####################################### */
+/* ########## SECOND CAROUSEL ############ */
+/* ####################################### */
+#speakers-carousel {
+  overflow-x: hidden;
+}
+#speakers-carousel li.slide {
+  min-width: 35% !important;
+}
+.slide-item.speaker {
+  padding: 50px;
+}
+
+/* #################################### */
+/* ########## QUOTE ############ */
+/* #################################### */
+#quote {
+  background: var(--main-color); /* #ff0057 */
+  display: flex;
+}
+.quote-content {
+  margin: 50px auto;
+  width: 70vw;
+  min-width: 300px;
+  color: var(--main-color);
+  font-size: 2.6em;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  padding: 30px;
+}
+.quote-content blockquote {
+  margin: 40px 20px;
+  letter-spacing: 2px;
+  line-height: 160%;
+  font-family: "Electrolize", sans-serif;
+}
+blockquote .fas,
+blockquote .fa {
+  margin: 0 20px;
+  transform: translateY(-10px);
+}
+.quote-content cite {
+  margin-left: 70%;
+  font-size: 0.5em;
+}
+/* #################################### */
+/* ########## TRACK CARDS ############ */
+/* #################################### */
+
 @media screen and (max-width: 960px) {
   .slide-content {
     font-size: 2.8em;
   }
-}
-@media screen and (max-width: 820px) {
-  .slide-content {
-    font-size: 2.5em;
-    align-items: center;
-  }
-  .slide-content h1,
-  .slide-content h6 {
-    width: 70%;
+
+  #speakers-carousel li.slide {
+    min-width: 50% !important;
   }
 }
 @media screen and (max-width: 820px) {
@@ -68,16 +122,22 @@
   .slide-content h1,
   .slide-content h6 {
     width: 70%;
+  }
+
+  #speakers-carousel li.slide {
+    min-width: 80% !important;
+  }
+
+  .quote-content blockquote {
+    font-size: 35px;
+  }
+  .quote-content cite {
+    margin-left: 60%;
   }
 }
 @media screen and (max-width: 620px) {
   .slide-content {
     font-size: 2.2em;
-    align-items: center;
-  }
-  .slide-content h1,
-  .slide-content h6 {
-    width: 70%;
   }
   .slide-content h1 {
     font-size: 1.2em;
@@ -85,8 +145,16 @@
   .slide-item img {
     height: 70vh;
   }
+
+  .quote-content blockquote {
+    font-size: 30px;
+  }
+
+  .quote-content cite {
+    margin-left: 50%;
+  }
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 550px) {
   .slide-content {
     font-size: 2em;
     align-items: center;
@@ -95,19 +163,11 @@
   .slide-content h6 {
     width: 80%;
   }
-}
-
-/* #################################### */
-/* ########## SECTION TWO ############ */
-/* #################################### */
-
-#section-two {
-  min-height: 100vh;
-  border: 2px solid black;
-}
-.speaker-carousel {
-  overflow-x: hidden;
-}
-.slide-item.speaker {
-  padding: 50px;
+  .quote-content blockquote {
+    font-size: 20px;
+    margin: 0;
+  }
+  .quote-content cite {
+    font-size: 15px;
+  }
 }

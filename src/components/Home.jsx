@@ -1,8 +1,28 @@
 import "../styles/home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import ProfileCard from "./ProfileCard";
+import TrackCard from "./TrackCard";
+import TrackCard2 from "./TrackCard2";
 function Home() {
+  const [slidePercent, setSlidePercent] = useState("");
+  function setWidth(width) {
+    if (width > 1110) {
+      return 30;
+    } else if (width > 600) {
+      return 50;
+    }
+  }
+  useEffect(() => {
+    let screen = setWidth(window.innerWidth);
+    if (!slidePercent && screen !== slidePercent) setSlidePercent(screen);
+    console.log(screen);
+    window.onresize = function () {
+      let screen = setWidth(window.innerHeight);
+      if (!slidePercent && screen !== slidePercent) setSlidePercent(screen);
+    };
+  }, []);
   return (
     <>
       <section className="main-carousel">
@@ -70,10 +90,8 @@ function Home() {
             autoPlay: true,
             useKeyboardArrows: true,
             transitionTime: 1000,
-            interval: 7000,
-            dynamicHeight: false,
-            stopOnHover: false,
-            centerSlidePercentage: 30,
+            interval: 3000,
+            centerSlidePercentage: 35,
           }}
           width="100vw"
         >
@@ -90,6 +108,23 @@ function Home() {
             <ProfileCard />
           </div>
         </Carousel>
+      </section>
+      <section id="quote">
+        <div className="quote-content">
+          <blockquote>
+            <i class="fas fa-quote-left"></i>
+            Predicting the future isn't magic, it's Artificial Intelligence.
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+          <cite>~ Dave Waters</cite>
+        </div>
+      </section>
+      <section id="tracks">
+        <TrackCard />
+        <TrackCard2 />
+      </section>
+      <section id="table">
+        <div className="home-heading">Events Table</div>
       </section>
     </>
   );
