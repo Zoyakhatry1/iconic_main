@@ -32,6 +32,9 @@
     margin:0 2.8rem;
     margin-bottom: 0.8rem;
 }
+.span{
+    font-weight: bold;
+}
 
 @media (min-width:1700px)
 {
