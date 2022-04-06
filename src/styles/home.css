@@ -105,11 +105,39 @@ blockquote .fa {
 /* ########## TRACK CARDS ############ */
 /* #################################### */
 
+/* #################################### */
+/* ########## Table ################### */
+/* #################################### */
+#table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh 0;
+  background: var(--main-color);
+}
+.table-container table {
+  width: 700px;
+  margin: 20px 0 40px 0;
+}
+.table-container table td {
+  padding: 20px;
+  font-size: 1em;
+  color: white;
+  border-color: white;
+}
+.date-table-heading {
+  font-size: 2.3em;
+  margin: 30px 0;
+  padding: 10px 15px;
+  border-bottom: 4px solid white;
+  color: white;
+  font-family: "Bitter", serif;
+}
+
 @media screen and (max-width: 960px) {
   .slide-content {
     font-size: 2.8em;
   }
-
   #speakers-carousel li.slide {
     min-width: 50% !important;
   }
@@ -145,7 +173,6 @@ blockquote .fa {
   .slide-item img {
     height: 70vh;
   }
-
   .quote-content blockquote {
     font-size: 30px;
   }
@@ -162,6 +189,18 @@ blockquote .fa {
   .slide-content h1,
   .slide-content h6 {
     width: 80%;
+  }
+
+  .date-table-heading {
+    font-size: 1.5em;
+  }
+  .table-container table {
+    width: auto;
+    margin: 10px;
+  }
+  .table-container table td {
+    padding: 15px 20px;
+    font-size: 14px;
   }
   .quote-content blockquote {
     font-size: 20px;

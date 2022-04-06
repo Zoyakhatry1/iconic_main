@@ -5,6 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import ProfileCard from "./ProfileCard";
 import TrackCard from "./TrackCard";
 import TrackCard2 from "./TrackCard2";
+import Contact from "./Contact";
 function Home() {
   const [slidePercent, setSlidePercent] = useState("");
   function setWidth(width) {
@@ -124,8 +125,33 @@ function Home() {
         <TrackCard2 />
       </section>
       <section id="table">
-        <div className="home-heading">Events Table</div>
+        <h3 className="date-table-heading">Important Dates</h3>
+        <div className="table-container">
+          <table>
+            <tr>
+              <td>Submission Deadline</td>
+              <td>31st July, 2021</td>
+            </tr>
+            <tr>
+              <td>Acceptance Notification</td>
+              <td>5th August, 2021</td>
+            </tr>
+            <tr>
+              <td>Early-Bird Registrations</td>
+              <td>15th August, 2021</td>
+            </tr>
+            <tr>
+              <td>Camera-Ready Submission</td>
+              <td>25th August, 2021</td>
+            </tr>
+            <tr>
+              <td>Submission Deadline</td>
+              <td>25th August, 2021</td>
+            </tr>
+          </table>
+        </div>
       </section>
+      <Contact />
     </>
   );
 }
