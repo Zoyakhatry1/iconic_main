@@ -57,8 +57,8 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/contacts" className="nav-links" onClick={handleClick}>
-              Contact Us
+            <Link to="/gallery" className="nav-links" onClick={handleClick}>
+              Gallery
             </Link>
           </li>
           <li className="nav-item">
@@ -66,6 +66,12 @@ function NavBar() {
               Submission Details
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/contacts" className="nav-links" onClick={handleClick}>
+              Contact Us
+            </Link>
+          </li>
+          
         </ul>
         <div className="nav-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
