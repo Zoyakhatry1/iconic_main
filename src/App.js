@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import Members from "./components/Members";
 import Registration from "./components/Registration";
 import Venue from "./components/Venue";
+import Contact from "./components/Contact";
+import AuthorGuidelines from "./components/AuthorGuidelines";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
          <Route path="/blog" element={<Members/>}></Route>
          <Route path="/registration" element={<Registration/>}></Route>
          <Route path="/venue" element={<Venue />}></Route>
+         <Route path="/submissiondetails" element={<AuthorGuidelines />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

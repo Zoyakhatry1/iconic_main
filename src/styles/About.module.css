@@ -7,14 +7,18 @@
 }
 .about{
     margin: 5rem auto;
-    max-width: 2000px;  
+    max-width: 2000px; 
+    overflow-x: hidden; 
 } 
 .heading{
     text-align: center;
     font-size: 2rem;
     color: #d72645;
     margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: "Bitter", serif;
 }
+
 .info{
     display: flex;
     justify-content:space-between;
