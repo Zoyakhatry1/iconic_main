@@ -8,6 +8,7 @@ import Members from "./components/Members";
 import Registration from "./components/Registration";
 import Venue from "./components/Venue";
 import Contact from "./components/Contact";
+import AuthorGuidelines from "./components/AuthorGuidelines";
 
 function App() {
   let scrollToTarget = (target) => {
@@ -31,6 +32,10 @@ function App() {
           <Route path="/registration" element={<Registration />}></Route>
           <Route path="/venue" element={<Venue />}></Route>
           <Route path="/contacts" element={<Contact />}></Route>
+          <Route
+            path="/submissiondetails"
+            element={<AuthorGuidelines />}
+          ></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

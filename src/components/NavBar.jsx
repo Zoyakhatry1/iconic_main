@@ -84,6 +84,20 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/gallery" className="nav-links" onClick={handleClick}>
+              Gallery
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/submissiondetails"
+              className="nav-links"
+              onClick={handleClick}
+            >
+              Submission Details
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/contacts" className="nav-links" onClick={handleClick}>
               Contact Us
             </Link>

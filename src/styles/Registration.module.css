@@ -72,7 +72,7 @@
 }
 
 table, th, td {
-    border: 1.5px solid black;
+    border: 1.5px solid #d72645;
     border-collapse: collapse;
     padding: 0.6rem;
     color: #666666;
