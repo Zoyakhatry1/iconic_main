@@ -8,7 +8,7 @@ function TrackCard2() {
         Artificial Intelligence and Machine Learning
       </div>
       <i
-        class={click ? "fa fa-angle-up" : "fa fa-angle-down"}
+        className={click ? "fa fa-angle-up" : "fa fa-angle-down"}
         onClick={() => setClick(!click)}
       ></i>
       <ul className={click ? "track-list two expand" : "track-list two"}>

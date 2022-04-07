@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -7,18 +7,30 @@ import Footer from "./components/Footer";
 import Members from "./components/Members";
 import Registration from "./components/Registration";
 import Venue from "./components/Venue";
+import Contact from "./components/Contact";
 
 function App() {
+  let scrollToTarget = (target) => {
+    setTimeout(() => {
+      target.scrollIntoView({
+        behavior: "smooth",
+      });
+    }, 500);
+  };
   return (
     <>
       <BrowserRouter>
-      <NavBar />
+        <NavBar />
         <Routes>
-         <Route path="/" element={<Home/>}></Route>
-         <Route path="/about" element={<About/>}></Route>
-         <Route path="/blog" element={<Members/>}></Route>
-         <Route path="/registration" element={<Registration/>}></Route>
-         <Route path="/venue" element={<Venue />}></Route>
+          <Route
+            path="/"
+            element={<Home scrollToTarget={scrollToTarget} />}
+          ></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/blog" element={<Members />}></Route>
+          <Route path="/registration" element={<Registration />}></Route>
+          <Route path="/venue" element={<Venue />}></Route>
+          <Route path="/contacts" element={<Contact />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

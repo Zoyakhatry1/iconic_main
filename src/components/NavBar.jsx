@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 /* MAKE NAVBAR STICKY WHEN SCROLL-DOWN */
 function NavBar() {
   const [click, setClick] = useState(false);
+  const [open, setOpen] = useState(false);
   const navBar = useRef();
   useEffect(() => {
     let header = navBar.current;
@@ -28,19 +29,45 @@ function NavBar() {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={handleClick}>
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
             <Link to="/about" className="nav-links" onClick={handleClick}>
               About
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/blog" className="nav-links" onClick={handleClick}>
-              Members
+          <li className={open ? "nav-item people" : "nav-item"}>
+            <Link
+              to=""
+              className="nav-links"
+              onClick={(e) => {
+                e.preventDefault();
+                setOpen(!open);
+              }}
+            >
+              People
+              <i className={open ? "fa fa-angle-up" : "fa fa-angle-down"}></i>
             </Link>
+            <div className={open ? "dropdown open" : "dropdown"}>
+              <Link
+                to={{
+                  pathname: "/",
+                  hash: "speakers",
+                }}
+                onClick={() => {
+                  setOpen(!open);
+                  handleClick();
+                }}
+              >
+                Speakers
+              </Link>
+              <Link
+                to="/blog"
+                onClick={() => {
+                  setOpen(!open);
+                  handleClick();
+                }}
+              >
+                Members
+              </Link>
+            </div>
           </li>
           <li className="nav-item">
             <Link
@@ -57,7 +84,7 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-links" onClick={handleClick}>
+            <Link to="/contacts" className="nav-links" onClick={handleClick}>
               Contact Us
             </Link>
           </li>

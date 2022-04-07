@@ -1,13 +1,17 @@
 import "../styles/home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import ProfileCard from "./ProfileCard";
 import TrackCard from "./TrackCard";
 import TrackCard2 from "./TrackCard2";
 import Contact from "./Contact";
 import { Link } from "react-router-dom";
-function Home() {
+function Home({ scrollToTarget }) {
+  const location = useLocation();
+  const tracks = useRef();
+  const speakers = useRef();
   const [slidePercent, setSlidePercent] = useState("");
   function setWidth(width) {
     if (width > 1110) {
@@ -17,14 +21,20 @@ function Home() {
     }
   }
   useEffect(() => {
+    if (location.hash === "#tracks") scrollToTarget(tracks.current);
+    else if (location.hash === "#speakers") scrollToTarget(speakers.current);
+    else
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
     let screen = setWidth(window.innerWidth);
     if (!slidePercent && screen !== slidePercent) setSlidePercent(screen);
-    console.log(screen);
     window.onresize = function () {
       let screen = setWidth(window.innerHeight);
       if (!slidePercent && screen !== slidePercent) setSlidePercent(screen);
     };
-  }, []);
+  }, [location]);
   return (
     <>
       <section className="main-carousel">
@@ -95,7 +105,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section id="speakers-carousel">
+      <section id="speakers-carousel" ref={speakers}>
         <Carousel
           centerMode
           {...{
@@ -135,7 +145,7 @@ function Home() {
           <cite>~ Dave Waters</cite>
         </div>
       </section>
-      <section id="tracks">
+      <section id="tracks" ref={tracks}>
         <TrackCard />
         <TrackCard2 />
       </section>
