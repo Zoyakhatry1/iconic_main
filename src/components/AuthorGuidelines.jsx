@@ -9,31 +9,47 @@ function AuthorGuidelines() {
           <h1 className={classes.heading}>Tracks</h1>
           <TrackCard2 />
           <div className={classes.guidelines}>
-             <h1 className={classes.heading}>Instructions for Authors</h1>
+             <h1 className={classes.heading}>Instructions for Preparing Manuscripts</h1>
               <div className={classes.points}>
-              <ul className={classes.content}>
-              <li>The conference is being organised in hybrid mode.</li>
-              <li>Original papers based on theoretical or experimental works related to the above mentioned sub themes are solicited for presentation in the conference. The paper should begin with title, short abstract and a list of keywords. Simultaneous submissions (papers already submitted to other conferences/journals) are not allowed.
-              Please do not submit plagiarized papers.</li>
-              <li>The total length of the paper must not exceed eight A4 size pages including bibliography and appendices. Paper must be in PDF.</li>
-              <li>All the papers will be submitted through on-line paper submission process (Easy chair submission system). Authors are requested to upload a blind copy by clicking the paper submission link :- <a href="">Submit Here</a> </li>
-              <li>It is planned to publish the peer reviewed and selected papers of conference as proceedings with Springer in their prestigious “Lecture Notes in Electrical Engineering” series <a href="">(Click Here)</a>.</li>
-              <li>All papers must follow strict formatting instructions, For detailed instructions for authors, kindly visit the following link: <a href="">Click Here</a> </li>
-              </ul>
+              <p className={classes.content}>
+              Prospective authors are invited to submit full-length original research papers. In submitting a manuscript to CVIP 2022, authors acknowledge that no paper substantially similar in content has been or will be submitted to another journal, conference or workshop during the review period. In such a case, the paper will be rejected without review.</p>
+              <p className={classes.content}>
+              Papers must be electronically submitted to the Microsoft Research paper submission portal before the deadline expires without exception.
+              </p>
+              <p className={classes.content}>
+              The paper must not exceed 12 pages in length (including all text, figures, and references). The manuscript must be submitted in pdf format only and the file size of your manuscript should not exceed 10 MB as per guidelines of Springer-CCIS Series <a href="">(Click)</a>.
+              </p>
+              <p className={classes.content}>
+              Use a proper tool to convert the resulting source into a pdf document that has only scalable fonts with all fonts embedded.
+              </p>
+              <p className={classes.content}>
+              The images embedded in the paper must not contain transparent pixels (i.e., an alpha-channel of a transparent color) since this could lead to problems when displaying or printing the pdf.
+              </p>
+              <p className={classes.content}>
+              The pdf manuscript must not have Adobe Document Protection or Document Security enabled.
+              </p>
             </div>   
              
-            <h1 className={classes.heading}>Review Process</h1>
+            <h1 className={classes.heading}>Proceedings</h1>
              <div className={classes.points}>
              <p className={classes.content}>
-             The conference aims at carrying out two rounds of review process. In the first round, the papers submitted by the authors will be assessed on the basis of their technical suitability, scope of work and plagiarism, to be checked by standard commercial plagiarism tool. The qualifying submissions will be double blind reviewed by at-least two experts on the basis of originality, novelty, clarity, completeness, relevance, significance and research contribution. The shortlisted papers will be accepted for presentation and presented papers will be published in the conference proceedings.
+             The proceedings of the conference are published by Scopus Indexed ‐ Springer, Communications in Computer and Information Science series. CCIS is abstracted/ indexed in DBLP, Google Scholar, EI-Compendex, Mathematical Reviews, SCImago, Scopus. CCIS volumes are also submitted for the inclusion in ISI Proceedings.
              </p>
              </div>
 
-             <h1 className={classes.heading}>Copy Right Form</h1>
+             <h1 className={classes.heading}>Preparing Your Proceedings Paper</h1>
              <div className={classes.points}>
                <p className={classes.content}>
-               In order to publish paper in the conference proceeding, the authors are required to submit a signed copyright form for each accepted paper during registration.
+               For your convenience, we have summarized in the “Author Guidelines” document how a proceedings paper should be structured, how elements (headings, figures, references) should be formatted using our predefined styles, etc. We also give some insight on how your paper will be typeset at CVIP. The PDF of the Authors Guidelines can be downloaded here Proceedings Guidelines for Authors.
                </p>
+             </div>
+
+             <h1 className={classes.heading}>Proceedings Guidelines for Authors</h1>
+             <div className={classes.points}>
+               <p className={classes.content}>
+               Authors must use the manuscript template specified here. The LaTeX and Word templates can be downloaded from the following links.</p>
+               <p className={classes.content}> <a href="">Latex Template</a> <br />
+               <a href="">Word Template</a></p>
              </div>
 
 

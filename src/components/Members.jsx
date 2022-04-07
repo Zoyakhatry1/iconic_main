@@ -14,59 +14,59 @@ function Members() {
   return (
     <div className={classes.members}>
       <div className={classes.content}>
-        <h1 className={classes.heading}>Chief Patron</h1>
-        <img className={classes.dirimg} src={dirimg} alt="" />
-        <p className={classes.name}>- Prof(Dr.) Rakesh Sehgal</p>
-        <p className={classes.name}>(Director, NIT Srinagar)</p>
-
+         <div className={classes.subcontent}>
+         <h1 className={classes.heading}>Chief Patron</h1>
+         <div className={classes.img1}></div>
+         <p className={classes.name}>- Prof(Dr.) Rakesh Sehgal (Director, NIT Srinagar)</p>
+         </div>
+      
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Patron</h1>
-          <img className={classes.dirimg} src={iitdirimg} alt="" />
-          <p className={classes.name}>- Prof(Dr.) Manoj Singh Gaur</p>
-          <p className={classes.name}>(Director, IIT Jammu)</p>
+          <div className={classes.img2}></div>
+          <p className={classes.name}>- Prof(Dr.) Manoj Singh Gaur (Director, IIT Jammu)</p>
         </div>
 
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Conference Chair</h1>
-          <img className={classes.dirimg} src={profimg} alt="" />
-          <p className={classes.name}>- Prof. Roohie Naaz Mir</p>
-          <p className={classes.name}>(HOD, CSE , NIT Srinagar)</p>
+          <div className={classes.img3}></div>
+          <p className={classes.name}>- Prof. Roohie Naaz Mir (HOD, CSE , NIT Srinagar)</p>
+          <p className={classes.name}></p>
         </div>
 
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Technical Chair(s)</h1>
-          <p className={classes.name}>- Dr. Shaima Qureshi</p>
-          <p className={classes.name}>(NIT Srinagar)</p>
-          <p className={classes.name}>- Dr. Dharitri Rath</p>
-          <p className={classes.name}>(IIT Jammu)</p>
-          <p className={classes.name}>- Dr. Badri N subudhi</p>
-          <p className={classes.name}>(IIT Jammu)</p>
+          <p className={classes.name}>- Dr. Shaima Qureshi (NIT Srinagar)</p>
+          <p className={classes.name}></p>
+          <p className={classes.name}>- Dr. Dharitri Rath (IIT Jammu)</p>
+          <p className={classes.name}></p>
+          <p className={classes.name}>- Dr. Badri N subudhi (IIT Jammu)</p>
+          <p className={classes.name}></p>
         </div>
 
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Publication Chair(s)</h1>
-          <p className={classes.name}>- Dr. Ranjeet Kumar Rout</p>
-          <p className={classes.name}>(NIT Srinagar)</p>
-          <p className={classes.name}>- Dr. Vinit Jakhetiya</p>
-          <p className={classes.name}>(IIT Jammu)</p>
-          <p className={classes.name}>- Dr. Saiyed Umer</p>
-          <p className={classes.name}>(Aliah University, Kolkata)</p>
+          <p className={classes.name}>- Dr. Ranjeet Kumar Rout (NIT Srinagar)</p>
+          <p className={classes.name}></p>
+          <p className={classes.name}>- Dr. Vinit Jakhetiya (IIT Jammu)</p>
+          <p className={classes.name}></p>
+          <p className={classes.name}>- Dr. Saiyed Umer (Aliah University, Kolkata)</p>
+          <p className={classes.name}></p>
         </div>
 
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Publicity Chair(s)</h1>
-          <p className={classes.name}>- Dr. Pramod Kumar Yadav</p>
-          <p className={classes.name}>(NIT Srinagar)</p>
-          <p className={classes.name}>- Dr. Veningston K</p>
-          <p className={classes.name}>(NIT Srinagar)</p>
+          <p className={classes.name}>- Dr. Pramod Kumar Yadav (NIT Srinagar)</p>
+          <p className={classes.name}></p>
+          <p className={classes.name}>- Dr. Veningston K (NIT Srinagar)</p>
+          <p className={classes.name}></p>
         </div>
 
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Organizing Secretary</h1>
-          <p className={classes.name}>- Dr. Sparsh Sharma</p>
-          <p className={classes.name}>- Dr. Saiyed Umer</p>
-          <p className={classes.name}>- Dr. Pramod Kumar Yadav</p>
-          <p className={classes.name}>- Dr. Veningston K</p>
+          <p className={classes.name}>- Dr. Sparsh Sharma (NIT Srinagar)</p>
+          <p className={classes.name}>- Dr. Saiyed Umer (NIT Srinagar)</p>
+          <p className={classes.name}>- Dr. Pramod Kumar Yadav (NIT Srinagar)</p>
+          <p className={classes.name}>- Dr. Veningston K (NIT Srinagar)</p>
         </div>
 
         <div className={classes.subcontent}>
@@ -79,10 +79,10 @@ function Members() {
 
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Finance Committee</h1>
-          <p className={classes.name}>- Dr. Sudhir</p>
-          <p className={classes.name}>- Dr. Ranjeet Kumar Rout</p>
-          <p className={classes.name}>- Dr. Saiyed Umer</p>
-          <p className={classes.name}>- Dr. Sparsh Sharma</p>
+          <p className={classes.name}>- Dr. Sudhir (NIT Srinagar)</p>
+          <p className={classes.name}>- Dr. Ranjeet Kumar Rout (NIT Srinagar)</p>
+          <p className={classes.name}>- Dr. Saiyed Umer (NIT Srinagar)</p>
+          <p className={classes.name}>- Dr. Sparsh Sharma (NIT Srinagar)</p>
         </div>
 
         <div className={classes.subcontent}>

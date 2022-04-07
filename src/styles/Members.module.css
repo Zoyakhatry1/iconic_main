@@ -1,14 +1,22 @@
 .members{
     background-color:#D3D3D3 ;
     padding:5rem 2rem;
-    text-align: center;
+    padding-top: 2rem;
+    
 }
 .content{
     margin: 0 auto;
     max-width:2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
 }
 .subcontent{
+    margin: 0 auto;
     margin-top: 4rem;
+    display: flex;
+    flex-direction: column;    
 }
 .heading{
     margin: 2rem;
@@ -16,16 +24,46 @@
     font-size: 2rem;
     font-family: "Bitter", serif;
     text-decoration: underline;
+    text-align: center;
 }
 .name{
+    margin: 0 auto;
     color:#666666 ;
     margin: 0.4rem;
-    margin-bottom:1rem;
+    margin-bottom:0.1rem;
     font-size: 1.1rem;
+    display: flex;
+    justify-content:space-around;
 }
-.dirimg{
-    height: 257px;
+
+.img1{
+    background: url("../assets/director.jpg");
+    height:150px;
+    width:200px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    object-fit: cover;
 }
+.img2{
+    background: url("../assets/iit_director.png");
+    height:150px;
+    width:200px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.img3{
+    background: url("../assets/prof.jpg");
+    height:150px;
+    width:200px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
 @media (min-width:1600px)
 {
     .heading{
@@ -37,10 +75,6 @@
 }
 @media (max-width:500px)
 {
-    .dirimg{
-        width:250px;
-        margin: 0;
-    }
     .heading{
         font-size:1.2rem;
     }
