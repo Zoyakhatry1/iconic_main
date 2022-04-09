@@ -51,7 +51,7 @@
   background: white;
 }
 
-.card-content h3 {
+.card-content h2 {
   font-size: 25px;
   color: #353535;
 }
@@ -88,7 +88,7 @@
   .card-content {
     width: 250px;
   }
-  .card-content h3 {
+  .card-content h2 {
     font-size: 22px;
   }
   .card-content p {
@@ -96,5 +96,26 @@
   }
   .card-content .links i {
     font-size: 25px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .skewed {
+    width: 300px;
+    height: 400px;
+  }
+  #img {
+    transform: skewY(-10deg);
+  }
+  .card-content {
+    width: 500px;
+  }
+  .card-content h2 {
+    font-size: 3.5rem;
+  }
+  .card-content p {
+    font-size: 1.6rem;
+  }
+  .card-content .links i {
+    font-size: 2rem;
   }
 }

@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import ProfileCard from "./ProfileCard";
-import TrackCard from "./TrackCard";
 import TrackCard2 from "./TrackCard2";
 import Contact from "./Contact";
 import { Link } from "react-router-dom";
@@ -58,17 +57,27 @@ function Home({ scrollToTarget }) {
           <div className="slide-item">
             <img src={require("../assets/nit_image.jpg")} alt="" />
             <div className="slide-content">
-              <h1>
-                1<sup>st</sup> International Conference on Intelligent Computing
-              </h1>
+              <div className="sub-text">
+                The Ist International Conference on{" "}
+              </div>
+              <h1>Intelligent Computing</h1>
+              <div className="sub-text">
+                by Dept. of Computer Science and Engineering
+                <br /> NIT Srinagar, Hazratbal, 190006
+              </div>
             </div>
           </div>
           <div className="slide-item">
             <img src={require("../assets/scene.jpg")} alt="" />
             <div className="slide-content">
-              <h1>
-                1<sup>st</sup> International Conference on Intelligent Computing
-              </h1>
+              <div className="sub-text">
+                The Ist International Conference on{" "}
+              </div>
+              <h1>Intelligent Computing</h1>
+              <div className="sub-text">
+                by Dept. of Computer Science and Engineering
+                <br /> NIT Srinagar, Hazratbal, 190006
+              </div>
             </div>
           </div>
           <div className="slide-item">
@@ -77,20 +86,19 @@ function Home({ scrollToTarget }) {
               alt=""
             />
             <div className="slide-content">
-              <h1>
-                1<sup>st</sup> International Conference on Intelligent Computing
-              </h1>
+              <div className="sub-text">
+                The Ist International Conference on{" "}
+              </div>
+              <h1>Intelligent Computing</h1>
+              <div className="sub-text">
+                by Dept. of Computer Science and Engineering
+                <br /> NIT Srinagar, Hazratbal, 190006
+              </div>
             </div>
           </div>
         </Carousel>
       </section>
       <section id="section-two">
-        <div className="sub-text">
-          <i>
-            The Ist International Conference on Intelligent Computing by Dept.
-            of Computer Science and Engineering
-          </i>
-        </div>
         <div className="about-iconic">
           <img src={require("../assets/nit_image.jpg")} alt="" />
           <div className="about-text">
@@ -146,7 +154,10 @@ function Home({ scrollToTarget }) {
         </div>
       </section>
       <section id="tracks" ref={tracks}>
-        <TrackCard />
+        <TrackCard2 />
+        <TrackCard2 />
+        <TrackCard2 />
+        <TrackCard2 />
         <TrackCard2 />
       </section>
       <section id="table">

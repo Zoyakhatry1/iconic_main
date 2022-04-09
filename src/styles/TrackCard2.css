@@ -1,13 +1,15 @@
 .expand-tracks {
-  min-width: 300px;
+  min-width: 200px;
   width: 20%;
-  min-height: 300px;
+  min-height: 200px;
+  height: fit-content;
   margin: 20px auto;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
     -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
   background-color: var(--main-color);
@@ -15,9 +17,20 @@
   /* background: url("../assets/21770.jpg") no-repeat right top;
   background-size: cover; */
 }
-.expand.track-heading {
+.track-heading {
+  font-family: "Bitter", serif;
+  color: var(--main-color);
+  line-height: 1.5;
   margin: 20px;
-  font-size: 2em;
+  font-weight: 600;
+}
+.track-list > * {
+  margin: 20px 0;
+  color: rgb(119, 120, 122);
+  transition: all 0.5s;
+}
+.expand.track-heading {
+  font-size: 1.3rem;
   border: none;
   color: white;
 }
