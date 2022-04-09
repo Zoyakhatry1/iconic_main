@@ -9,6 +9,7 @@ import Registration from "./components/Registration";
 import Venue from "./components/Venue";
 import Contact from "./components/Contact";
 import AuthorGuidelines from "./components/AuthorGuidelines";
+import Gallery from "./components/Gallery";
 
 function App() {
   let scrollToTarget = (target) => {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/registration" element={<Registration />}></Route>
           <Route path="/venue" element={<Venue />}></Route>
           <Route path="/contacts" element={<Contact />}></Route>
+          <Route path="/gallery" element={<Gallery />}></Route>
           <Route
             path="/submissiondetails"
             element={<AuthorGuidelines />}
