@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../styles/Gallery.css";
 import nitimg from "../assets/nit_image.jpg";
 import decimg from "../assets/DEC.jpg";
@@ -8,6 +8,12 @@ import fullimg from "../assets/nit.jpg";
 import deptimg from "../assets/dept.jpg";
 
 function Gallery() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="main-gallery">
       <div className="container">

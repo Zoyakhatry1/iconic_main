@@ -63,7 +63,8 @@ function Home({ scrollToTarget }) {
               </div>
               <h1>Intelligent Computing</h1>
               <div className="sub-text">
-                by CSE Department | NIT Srinagar | IIT Jammu
+                ORGANISED BY :-
+                <br /> DEPARTMENT OF CSE - NIT SRINAGAR | IIT JAMMU
               </div>
             </div>
           </div>
@@ -75,7 +76,8 @@ function Home({ scrollToTarget }) {
               </div>
               <h1>Intelligent Computing</h1>
               <div className="sub-text">
-                by CSE Department | NIT Srinagar | IIT Jammu
+                ORGANISED BY :-
+                <br /> DEPARTMENT OF CSE - NIT SRINAGAR | IIT JAMMU
               </div>
             </div>
           </div>
@@ -90,7 +92,8 @@ function Home({ scrollToTarget }) {
               </div>
               <h1>Intelligent Computing</h1>
               <div className="sub-text">
-                by CSE Department | NIT Srinagar | IIT Jammu
+                ORGANISED BY :-
+                <br /> DEPARTMENT OF CSE - NIT SRINAGAR | IIT JAMMU
               </div>
             </div>
           </div>

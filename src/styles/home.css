@@ -181,6 +181,10 @@ blockquote .fa {
   color: white;
   border-color: white;
 }
+.table-container.red table td {
+  color: #666666;
+  border-color: var(--main-color);
+}
 .date-table-heading {
   font-size: 2.3em;
   margin: 30px 0;
