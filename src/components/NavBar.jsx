@@ -1,11 +1,12 @@
 import "../styles/nav.css";
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 /* MAKE NAVBAR STICKY WHEN SCROLL-DOWN */
 function NavBar() {
   const [click, setClick] = useState(false);
   const [open, setOpen] = useState(false);
   const navBar = useRef();
+  const location = useLocation();
   useEffect(() => {
     let header = navBar.current;
     function myFunction() {
@@ -28,12 +29,26 @@ function NavBar() {
         </Link>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">
+          <li
+            className={
+              window.location.pathname === "/about"
+                ? "nav-item selected"
+                : "nav-item"
+            }
+          >
             <Link to="/about" className="nav-links" onClick={handleClick}>
               About
             </Link>
           </li>
-          <li className={open ? "nav-item people" : "nav-item"}>
+          <li
+            className={
+              location.pathname === "/blog"
+                ? "nav-item selected"
+                : open
+                ? "nav-item people"
+                : "nav-item"
+            }
+          >
             <Link
               to=""
               className="nav-links"
@@ -69,7 +84,13 @@ function NavBar() {
               </Link>
             </div>
           </li>
-          <li className="nav-item">
+          <li
+            className={
+              window.location.pathname === "/registration"
+                ? "nav-item selected"
+                : "nav-item"
+            }
+          >
             <Link
               to="/registration"
               className="nav-links"
@@ -78,17 +99,35 @@ function NavBar() {
               Registration
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className={
+              window.location.pathname === "/venue"
+                ? "nav-item selected"
+                : "nav-item"
+            }
+          >
             <Link to="/venue" className="nav-links" onClick={handleClick}>
               Venue
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className={
+              window.location.pathname === "/gallery"
+                ? "nav-item selected"
+                : "nav-item"
+            }
+          >
             <Link to="/gallery" className="nav-links" onClick={handleClick}>
               Gallery
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className={
+              window.location.pathname === "/submissiondetails"
+                ? "nav-item selected"
+                : "nav-item"
+            }
+          >
             <Link
               to="/submissiondetails"
               className="nav-links"
@@ -97,7 +136,13 @@ function NavBar() {
               Submission Details
             </Link>
           </li>
-          <li className="nav-item">
+          <li
+            className={
+              window.location.pathname === "/contacts"
+                ? "nav-item selected"
+                : "nav-item"
+            }
+          >
             <Link to="/contacts" className="nav-links" onClick={handleClick}>
               Contact Us
             </Link>

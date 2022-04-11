@@ -1,4 +1,5 @@
 import "../styles/home.css";
+import "../styles/TextGlow.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
@@ -62,8 +63,7 @@ function Home({ scrollToTarget }) {
               </div>
               <h1>Intelligent Computing</h1>
               <div className="sub-text">
-                by Dept. of Computer Science and Engineering
-                <br /> NIT Srinagar, Hazratbal, 190006
+                by CSE Department | NIT Srinagar | IIT Jammu
               </div>
             </div>
           </div>
@@ -75,8 +75,7 @@ function Home({ scrollToTarget }) {
               </div>
               <h1>Intelligent Computing</h1>
               <div className="sub-text">
-                by Dept. of Computer Science and Engineering
-                <br /> NIT Srinagar, Hazratbal, 190006
+                by CSE Department | NIT Srinagar | IIT Jammu
               </div>
             </div>
           </div>
@@ -91,8 +90,7 @@ function Home({ scrollToTarget }) {
               </div>
               <h1>Intelligent Computing</h1>
               <div className="sub-text">
-                by Dept. of Computer Science and Engineering
-                <br /> NIT Srinagar, Hazratbal, 190006
+                by CSE Department | NIT Srinagar | IIT Jammu
               </div>
             </div>
           </div>
@@ -146,27 +144,32 @@ function Home({ scrollToTarget }) {
       <section id="quote">
         <div className="quote-content">
           <blockquote>
-            <i class="fas fa-quote-left"></i>
+            <i className="fas fa-quote-left"></i>
             Predicting the future isn't magic, it's Artificial Intelligence.
-            <i class="fa fa-quote-right"></i>
+            <i className="fa fa-quote-right"></i>
           </blockquote>
           <cite>~ Dave Waters</cite>
         </div>
       </section>
-      <section id="tracks" ref={tracks}>
-        <TrackCard2 />
-        <TrackCard2 />
-        <TrackCard2 />
-        <TrackCard2 />
-        <TrackCard2 />
+      <section id="tracks-container" ref={tracks}>
+        <h3 className="date-table-heading contacts">Tracks</h3>
+        <div id="tracks">
+          <TrackCard2 />
+          <TrackCard2 />
+          <TrackCard2 />
+          <TrackCard2 />
+          <TrackCard2 />
+        </div>
       </section>
       <section id="table">
         <h3 className="date-table-heading">Important Dates</h3>
         <div className="table-container">
           <table>
-            <tr>
+            <tr id="important">
               <td>Submission Deadline</td>
-              <td>31st July, 2021</td>
+              <td>
+                31st July, 2021 <span className="glow-text">open</span>
+              </td>
             </tr>
             <tr>
               <td>Acceptance Notification</td>

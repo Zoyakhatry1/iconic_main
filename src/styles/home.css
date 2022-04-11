@@ -61,7 +61,7 @@
   font-size: 0.45em;
   text-align: center;
   font-weight: 500;
-  color: #ff0057;
+  color: yellow;
 }
 .about-iconic {
   display: flex;
@@ -146,14 +146,20 @@ blockquote .fa {
 /* #################################### */
 /* ########## TRACK CARDS ############ */
 /* #################################### */
+#tracks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh 0;
+}
 #tracks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 5vh 5vw;
+  padding: 5vh 0;
 }
 #tracks > * {
-  margin: 30px;
+  margin: 20px;
 }
 /* #################################### */
 /* ########## Table ################### */
@@ -183,7 +189,10 @@ blockquote .fa {
   color: white;
   font-family: "Bitter", serif;
 }
-
+#important td {
+  font-size: 1.1em;
+  font-weight: 600;
+}
 @media screen and (max-width: 960px) {
   .slide-content {
     font-size: 2.5em;
@@ -272,7 +281,8 @@ blockquote .fa {
   .quote-content cite {
     font-size: 15px;
   }
-  .table-container table td {
+  .table-container table td,
+  #important td {
     padding: 8px;
     font-size: 12px;
   }
@@ -285,6 +295,10 @@ blockquote .fa {
 @media screen and (min-width: 1200px) {
   .slide-content {
     font-size: 3.2em;
+  }
+
+  #table {
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 1700px) {

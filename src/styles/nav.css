@@ -25,6 +25,9 @@
 .navbar.sticky-navbar div .nav-item:hover:after {
   background: black;
 }
+.navbar.sticky-navbar div .nav-item.selected:after {
+  background: black;
+}
 .nav-container {
   display: flex;
   justify-content: center;
@@ -66,7 +69,10 @@
   line-height: 40px;
   margin-right: 1rem;
 }
-
+.nav-item.selected:after {
+  width: 100%;
+  background: white;
+}
 .nav-item:after {
   content: "";
   display: block;
