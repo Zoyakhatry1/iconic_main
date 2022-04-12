@@ -1,14 +1,11 @@
 .main {
   background-color: #d3d3d3;
-  padding: 1rem 2rem;
-  padding-top: 6rem;
   height: 100%;
   margin: 0;
 }
 .content {
   margin: 0 auto;
   max-width: 2000px;
-  margin-bottom: 1rem;
 }
 .heading {
   margin: 2rem;
@@ -17,9 +14,6 @@
   font-size: 2.5rem;
   font-family: "Bitter", serif;
   letter-spacing: 0.03rem;
-}
-.guidelines {
-  margin: 5rem 0;
 }
 .points {
   margin: 1rem 4rem;
@@ -34,7 +28,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5rem 0;
+  margin: 5rem 0 0 0;
 }
 .tablecontainer table {
   width: 700px;

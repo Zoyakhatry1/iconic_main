@@ -12,6 +12,9 @@ function AuthorGuidelines() {
   }, []);
   return (
     <div className={classes.main}>
+      <div className="page-heading">
+        <span>Submission Details</span>
+      </div>
       <div className={classes.content}>
         <section id="tracks-container">
           <h3 className="date-table-heading contacts">Tracks</h3>

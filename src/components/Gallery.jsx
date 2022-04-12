@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "../styles/Gallery.css";
 import nitimg from "../assets/nit_image.jpg";
 import decimg from "../assets/DEC.jpg";
@@ -16,9 +16,10 @@ function Gallery() {
   }, []);
   return (
     <div className="main-gallery">
+      <div className="page-heading">
+        <span>Gallery</span>
+      </div>
       <div className="container">
-        <h1 className="heading">Gallery</h1>
-
         <div className="gallery">
           <div className="gallery-item">
             <img className="gallery-image" alt="" src={nitimg} />

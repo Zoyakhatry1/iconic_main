@@ -10,10 +10,10 @@ function Registration() {
   }, []);
   return (
     <div className={classes.registration}>
+      <div className="page-heading">
+        <span>Registration</span>
+      </div>
       <div className={classes.content}>
-        <div className={classes.heading}>
-          <h1>Registration</h1>
-        </div>
         <div className={classes.text}>
           <p>
             At least one author of each accepted paper should get a full

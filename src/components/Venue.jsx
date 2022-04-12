@@ -10,6 +10,9 @@ function Venue() {
   }, []);
   return (
     <div className={classes.main}>
+      <div className="page-heading">
+        <span>Venue</span>
+      </div>
       <div className={classes.content}>
         <h1 className={classes.heading}>Location</h1>
         <div className={classes.location}>

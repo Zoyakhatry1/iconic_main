@@ -12,6 +12,9 @@ function About() {
   }, []);
   return (
     <div className={classes.main}>
+      <div className="page-heading">
+        <span>About</span>
+      </div>
       <div className={classes.about}>
         <h3 className={classes.heading}>About NIT SRINAGAR</h3>
         <div className={classes.info}>
