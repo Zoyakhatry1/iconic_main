@@ -12,6 +12,12 @@
   margin: 0;
   font-family: "Bitter", serif;
 }
+.contact-page .date-table-heading.contacts {
+  display: none;
+}
+.contact-page #contacts {
+  padding: 5vh 0;
+}
 .contact-container {
   display: flex;
   align-items: center;
