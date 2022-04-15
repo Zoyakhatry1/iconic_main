@@ -11,7 +11,7 @@ function TrackCard2() {
         className={click ? "fa fa-angle-up" : "fa fa-angle-down"}
         onClick={() => setClick(!click)}
       ></i>
-      <ul className={click ? "track-list two expand" : "track-list two"}>
+      <ol className={click ? "track-list two expand" : "track-list two"}>
         <li> Soft Computing</li>
         <li>Deep Learning</li>
         <li> Image Processing</li>
@@ -19,7 +19,7 @@ function TrackCard2() {
         <li>Natural Language Processing Image Processing</li>
         <li> Fuzzy Logic and Systems</li>
         <li> Neural Network</li>
-      </ul>
+      </ol>
     </div>
   );
 }

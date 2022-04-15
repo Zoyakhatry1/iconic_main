@@ -21,6 +21,7 @@
 .info {
   display: flex;
   justify-content: space-between;
+  text-align:left;
   color: #666666;
 }
 .image {

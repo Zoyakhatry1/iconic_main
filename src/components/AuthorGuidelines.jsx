@@ -33,7 +33,7 @@ function AuthorGuidelines() {
           <div className={classes.points}>
             <p className={classes.content}>
               Prospective authors are invited to submit full-length original
-              research papers. In submitting a manuscript to CVIP 2022, authors
+              research papers. In submitting a manuscript to IConIC 2022, authors
               acknowledge that no paper substantially similar in content has
               been or will be submitted to another journal, conference or
               workshop during the review period. In such a case, the paper will
@@ -84,7 +84,7 @@ function AuthorGuidelines() {
               Guidelines” document how a proceedings paper should be structured,
               how elements (headings, figures, references) should be formatted
               using our predefined styles, etc. We also give some insight on how
-              your paper will be typeset at CVIP. The PDF of the Authors
+              your paper will be typeset at IConIC. The PDF of the Authors
               Guidelines can be downloaded here Proceedings Guidelines for
               Authors.
             </p>

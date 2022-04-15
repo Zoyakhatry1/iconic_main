@@ -103,7 +103,7 @@ function Home({ scrollToTarget }) {
         <div className="about-iconic">
           <img src={require("../assets/nit_image.jpg")} alt="" />
           <div className="about-text">
-            <div className="text-heading">About Iconic</div>
+            <div className="text-heading">About IConIC</div>
             The Ist International Conference on Internaltional Conference on
             Intelligent Computing (IConIC) is being conducted by the Department
             of Computer Science and Engineering, National Institute of
