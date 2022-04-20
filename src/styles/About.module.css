@@ -6,7 +6,8 @@
 }
 .about {
   max-width: 2000px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  margin: 2rem auto;
   padding: 2rem 2rem;
 }
 .heading {
