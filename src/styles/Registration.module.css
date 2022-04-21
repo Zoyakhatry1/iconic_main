@@ -92,7 +92,7 @@ td {
 .spanlink {
   font-weight: bold;
   color: #666666;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 a {
   color: var(--main-color);
@@ -116,7 +116,7 @@ a {
   margin-top: 3rem;
   color: #666666;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 @media (min-width: 1600px) {
   /* .heading {
