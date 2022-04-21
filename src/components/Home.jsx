@@ -59,7 +59,7 @@ function Home({ scrollToTarget }) {
             <img src={require("../assets/nit_image.jpg")} alt="" />
             <div className="slide-content">
               <div className="sub-text">
-                The Ist International Conference on{" "}
+                The 1<sup>st</sup> International Conference on{" "}
               </div>
               <h1>Intelligent Computing</h1>
               <div className="sub-text">

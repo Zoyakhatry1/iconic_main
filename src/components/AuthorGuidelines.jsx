@@ -33,9 +33,9 @@ function AuthorGuidelines() {
           <div className={classes.points}>
             <p className={classes.content}>
               Prospective authors are invited to submit full-length original
-              research papers. In submitting a manuscript to IConIC 2022, authors
-              acknowledge that no paper substantially similar in content has
-              been or will be submitted to another journal, conference or
+              research papers. In submitting a manuscript to IConIC 2022,
+              authors acknowledge that no paper substantially similar in content
+              has been or will be submitted to another journal, conference or
               workshop during the review period. In such a case, the paper will
               be rejected without review.
             </p>
@@ -49,7 +49,10 @@ function AuthorGuidelines() {
               figures, and references). The manuscript must be submitted in pdf
               format only and the file size of your manuscript should not exceed
               10 MB as per guidelines of Springer-CCIS Series{" "}
-              <a href="">(Click)</a>.
+              <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">
+                (Click)
+              </a>
+              .
             </p>
             <p className={classes.content}>
               Use a proper tool to convert the resulting source into a pdf
@@ -70,10 +73,14 @@ function AuthorGuidelines() {
           <div className={classes.points}>
             <p className={classes.content}>
               The proceedings of the conference are published by Scopus Indexed
-              ‐ Springer, Communications in Computer and Information Science
-              series. CCIS is abstracted/ indexed in DBLP, Google Scholar,
-              EI-Compendex, Mathematical Reviews, SCImago, Scopus. CCIS volumes
-              are also submitted for the inclusion in ISI Proceedings.
+              ‐ Springer,
+              <a href="https://www.springer.com/series/7899">
+                {" "}
+                Communications in Computer and Information Science series.
+              </a>{" "}
+              CCIS is abstracted/ indexed in DBLP, Google Scholar, EI-Compendex,
+              Mathematical Reviews, SCImago, Scopus. CCIS volumes are also
+              submitted for the inclusion in ISI Proceedings.
             </p>
           </div>
 
@@ -85,8 +92,10 @@ function AuthorGuidelines() {
               how elements (headings, figures, references) should be formatted
               using our predefined styles, etc. We also give some insight on how
               your paper will be typeset at IConIC. The PDF of the Authors
-              Guidelines can be downloaded here Proceedings Guidelines for
-              Authors.
+              Guidelines can be downloaded here{" "}
+              <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">
+                Proceedings Guidelines for Authors.
+              </a>
             </p>
           </div>
 
@@ -100,8 +109,16 @@ function AuthorGuidelines() {
             </p>
             <p className={classes.content}>
               {" "}
-              <a href="">Latex Template</a> <br />
-              <a href="">Word Template</a>
+              <a href={require("../assets/LaTeX2e_CVIP2022.zip")} download>
+                Latex Template
+              </a>{" "}
+              <br />
+              <a
+                href={require("../assets/Microsoft_Word_CVIP-2022.zip")}
+                download
+              >
+                Word Template
+              </a>
             </p>
           </div>
 

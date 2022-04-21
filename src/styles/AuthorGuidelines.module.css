@@ -1,5 +1,5 @@
 .main {
-  background-color: #d3d3d3;
+  background-color: white;
   height: 100%;
   margin: 0;
 }
@@ -53,10 +53,6 @@
 }
 
 @media (max-width: 500px) {
-  .main {
-    padding: 1rem 0;
-    padding-top: 4rem;
-  }
   .heading {
     font-size: 1.5rem;
   }

@@ -4,7 +4,7 @@
   align-items: center;
   overflow-x: hidden;
   padding: 10vh 0;
-  background: #d3d3d3;
+  background: white;
 }
 .date-table-heading.contacts {
   color: var(--main-color);

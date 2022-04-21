@@ -1,6 +1,6 @@
 .main {
   /* background-color: #fbfbfb; */
-  background-color: #d3d3d3;
+  background-color: white;
   height: 100%;
   margin: 0;
 }
@@ -22,7 +22,7 @@
 .info {
   display: flex;
   justify-content: space-between;
-  text-align:left;
+  text-align: left;
   color: #666666;
 }
 .image {
