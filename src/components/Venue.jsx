@@ -14,7 +14,6 @@ function Venue() {
         <span>Venue</span>
       </div>
       <div className={classes.content}>
-        <h1 className={classes.heading}>Location</h1>
         <div className={classes.location}>
           <img src={pic} alt="" className={classes.pic} />
         </div>

@@ -2,7 +2,7 @@
   background-color: white;
 }
 .content {
-  margin: 2rem auto;
+  margin: 0 auto;
   margin-bottom: 0;
   padding: 2rem 2rem;
   padding-top: 5rem;
@@ -16,7 +16,7 @@
 .text {
   text-align: center;
   margin: 2rem 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #666666;
 }
 .flex {
@@ -31,13 +31,13 @@
 .heading2 {
   color: #d72645;
   margin: 2rem 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .text2 {
   color: #666666;
   margin: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .span {
   font-weight: bold;
@@ -105,11 +105,11 @@ a {
   margin-top: 4rem;
 }
 .noteheading {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 .notepara {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .end {
   text-align: center;
@@ -123,22 +123,22 @@ a {
     font-size: 2rem;
   }
   .text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .heading2 {
     font-size: 2.5rem;
   }
   .text2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .text3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .text4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .headingfee {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   table,
   th,
@@ -148,7 +148,7 @@ a {
   }
   .linkscontent {
     margin: 2rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .spanlink {
     font-size: 2rem;
@@ -161,7 +161,7 @@ a {
     font-size: 2rem;
   }
   .notepara {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .end {
     font-size: 2rem;
