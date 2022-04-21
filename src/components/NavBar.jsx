@@ -42,6 +42,17 @@ function NavBar() {
           </li>
           <li
             className={
+              window.location.pathname === "/keynotes"
+                ? "nav-item selected"
+                : "nav-item"
+            }
+          >
+            <Link to="/keynotes" className="nav-links" onClick={handleClick}>
+              Keynotes
+            </Link>
+          </li>
+          <li
+            className={
               location.pathname === "/blog"
                 ? "nav-item selected"
                 : open
