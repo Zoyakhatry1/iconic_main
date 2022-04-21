@@ -325,7 +325,7 @@ blockquote .fa {
 }
 @media screen and (min-width: 1200px) {
   .slide-content {
-    font-size: 3.2em;
+    font-size: 3em;
   }
 
   #table {
@@ -333,7 +333,7 @@ blockquote .fa {
   }
 }
 @media screen and (min-width: 1700px) {
-  .about-text .text-heading {
+  /* .about-text .text-heading {
     font-size: 3.5rem;
   }
   .about-text {
@@ -348,5 +348,5 @@ blockquote .fa {
   }
   .slide-content {
     font-size: 5em;
-  }
+  } */
 }

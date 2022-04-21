@@ -61,7 +61,7 @@
   .map-container iframe {
     height: 700px;
   }
-  .address,
+  /* .address,
   .contact-heading {
     font-size: 1.3rem;
   }
@@ -70,7 +70,7 @@
   }
   .date-table-heading {
     font-size: 2rem;
-  }
+  } */
 }
 @media (max-width: 980px) {
   .map-container {

@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import pic from "../assets/nit_image.jpg";
 import cseimg from "../assets/cse_image.jpg";
 import classes from "../styles/About.module.css";
+import logo from "../assets/ICONICt.png";
+
 
 function About() {
   useEffect(() => {
@@ -102,7 +104,7 @@ function About() {
             </p>
           </div>
           <div>
-            <img className={classes.image} src={pic} alt="nit-image" />
+            <img className={classes.logo} src={logo} alt="nit-image" />
           </div>
         </div>
       </div>
