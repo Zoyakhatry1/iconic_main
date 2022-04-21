@@ -86,7 +86,7 @@ function NavBar() {
               >
                 Organizing Committee
               </Link>
-            { /* <Link
+              {/* <Link
                 to="/blog"
                 onClick={() => {
                   setOpen(!open);
@@ -94,39 +94,41 @@ function NavBar() {
                 }}
               >
                 Advisory Committee
-              </Link> */ }
+              </Link> */}
 
               <Link
-              to=""
-              onClick={(e) => {
-                e.preventDefault();
-                setOpen2(!open2);
-              }}
-            >
-              Advisory Committee
-              <i className={open2 ? "fa fa-angle-up" : "fa fa-angle-down"}></i>
-              <div className={open2 ? "dropdown open" : "dropdown"}>
-              <Link
-              to="/international"
-              onClick={() => {
-                setOpen2(!open2);
-                handleClick();
-              }}
-            >
-              International
-            </Link>
+                to=""
+                onClick={(e) => {
+                  e.preventDefault();
+                  setOpen2(!open2);
+                }}
+              >
+                Advisory Committee{" "}
+                <i
+                  className={open2 ? "fa fa-angle-up" : "fa fa-angle-down"}
+                ></i>
+                <div className={open2 ? "dropdown open" : "dropdown"}>
+                  <Link
+                    to="/international"
+                    onClick={() => {
+                      setOpen2(!open2);
+                      handleClick();
+                    }}
+                  >
+                    International
+                  </Link>
 
-            <Link
-            to="/national"
-            onClick={() => {
-              setOpen2(!open2);
-              handleClick();
-            }}
-          >
-            National
-          </Link>
-              </div>
-            </Link>
+                  <Link
+                    to="/national"
+                    onClick={() => {
+                      setOpen2(!open2);
+                      handleClick();
+                    }}
+                  >
+                    National
+                  </Link>
+                </div>
+              </Link>
             </div>
           </li>
           <li
