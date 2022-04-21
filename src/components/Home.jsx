@@ -34,7 +34,7 @@ function Home({ scrollToTarget }) {
       let screen = setWidth(window.innerHeight);
       if (!slidePercent && screen !== slidePercent) setSlidePercent(screen);
     };
-  }, [location]);
+  }, [location, scrollToTarget, slidePercent]);
   return (
     <>
       <section className="main-carousel">
@@ -47,7 +47,7 @@ function Home({ scrollToTarget }) {
             autoPlay: true,
             useKeyboardArrows: true,
             transitionTime: 1000,
-            interval: 7000,
+            interval: 3000,
             dynamicHeight: false,
             stopOnHover: false,
           }}
@@ -57,47 +57,43 @@ function Home({ scrollToTarget }) {
         >
           <div className="slide-item">
             <img src={require("../assets/nit_image.jpg")} alt="" />
-            <div className="slide-content">
-              <div className="sub-text">
-                The 1<sup>st</sup> International Conference on{" "}
-              </div>
-              <h1>Intelligent Computing</h1>
-              <div className="sub-text">
-                ORGANISED BY :-
-                <br /> DEPARTMENT OF CSE - NIT SRINAGAR | IIT JAMMU
-              </div>
-            </div>
           </div>
           <div className="slide-item">
             <img src={require("../assets/scene.jpg")} alt="" />
-            <div className="slide-content">
-              <div className="sub-text">
-                The Ist International Conference on{" "}
-              </div>
-              <h1>Intelligent Computing</h1>
-              <div className="sub-text">
-                ORGANISED BY :-
-                <br /> DEPARTMENT OF CSE - NIT SRINAGAR | IIT JAMMU
-              </div>
-            </div>
           </div>
           <div className="slide-item">
             <img
               src={require("../assets/jason-blackeye-10ui0BryWK8-unsplash.jpg")}
               alt=""
             />
-            <div className="slide-content">
-              <div className="sub-text">
-                The Ist International Conference on{" "}
-              </div>
-              <h1>Intelligent Computing</h1>
-              <div className="sub-text">
-                ORGANISED BY :-
-                <br /> DEPARTMENT OF CSE - NIT SRINAGAR | IIT JAMMU
-              </div>
-            </div>
           </div>
         </Carousel>
+        <div className="slide-content">
+          <div className="slide-text-content">
+            <div className="sub-text">
+              The 1<sup>st</sup> International Conference on{" "}
+            </div>
+            <h1>Intelligent Computing</h1>
+            <div className="sub-text">
+              ORGANISED BY :-
+              <br /> DEPARTMENT OF CSE - NIT SRINAGAR | IIT JAMMU
+            </div>
+          </div>
+          <div className="logos">
+            <div className="logo">
+              <img
+                src={require("../assets/NIT Srinagar.png")}
+                alt="nit srinagar"
+              />
+            </div>
+            <div className="logo">
+              <img src={require("../assets/iitJammu.png")} alt="iit jammu" />
+            </div>
+            <div className="logo">
+              <img src={require("../assets/R (24).png")} alt="springer" />
+            </div>
+          </div>
+        </div>
       </section>
       <section id="section-two">
         <div className="about-iconic">

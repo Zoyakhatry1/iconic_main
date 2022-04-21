@@ -24,10 +24,19 @@
   justify-content: center;
   font-size: 2.5em;
 }
+.slide-content .slide-text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  margin: 8% 0 2% 0;
+}
 .slide-content h1 {
   color: white;
   margin: 0%;
   font-family: "Bitter", serif;
+  text-align: center;
 }
 .slide-content h6 {
   width: 60%;
@@ -46,7 +55,25 @@
   left: 50%;
   font-size: 2em;
 }
-
+.logos {
+  justify-self: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.5);
+}
+.logos .logo {
+  width: 20%;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+}
+.logos .logo:first-child {
+  min-width: 350px;
+}
+.logos .logo img {
+  width: 100%;
+  height: auto;
+}
 /* #################################### */
 /* ########## SECTION TWO ############ */
 /* #################################### */

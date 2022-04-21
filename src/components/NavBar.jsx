@@ -25,7 +25,7 @@ function NavBar() {
     <nav className="navbar" ref={navBar}>
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          Iconic
+          <div className="nav-logo-container"></div>
         </Link>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
