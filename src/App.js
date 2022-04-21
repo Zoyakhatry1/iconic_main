@@ -11,6 +11,8 @@ import AuthorGuidelines from "./components/AuthorGuidelines";
 import Gallery from "./components/Gallery";
 import ContactPage from "./components/ContactPage";
 import Keynote from "./components/Keynote";
+import International from "./components/International";
+import National from "./components/National";
 
 function App() {
   let scrollToTarget = (target) => {
@@ -36,6 +38,8 @@ function App() {
           <Route path="/contacts" element={<ContactPage />}></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/keynotes" element={<Keynote />}></Route>
+          <Route path="/international" element={<International />}></Route>
+          <Route path="/national" element={<National />}></Route>
           <Route
             path="/submissiondetails"
             element={<AuthorGuidelines />}

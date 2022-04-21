@@ -78,11 +78,11 @@ function Members() {
 
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Organizing Secretary</h1>
-          <p className={classes.name}>- Dr. Sparsh Sharma (NIT Srinagar)</p>
-          <p className={classes.name}>- Dr. Saiyed Umer (NIT Srinagar)</p>
           <p className={classes.name}>
             - Dr. Pramod Kumar Yadav (NIT Srinagar)
           </p>
+          <p className={classes.name}>- Dr. Sparsh Sharma (NIT Srinagar)</p>
+          <p className={classes.name}>- Dr. Saiyed Umer (NIT Srinagar)</p>
           <p className={classes.name}>- Dr. Veningston K (NIT Srinagar)</p>
         </div>
 
@@ -96,10 +96,11 @@ function Members() {
 
         <div className={classes.subcontent}>
           <h1 className={classes.heading}>Finance Committee</h1>
-          <p className={classes.name}>- Dr. Sudhir (NIT Srinagar)</p>
           <p className={classes.name}>
             - Dr. Ranjeet Kumar Rout (NIT Srinagar)
           </p>
+          <p className={classes.name}>- Dr. Sudhir (NIT Srinagar)</p>
+          
           <p className={classes.name}>- Dr. Saiyed Umer (NIT Srinagar)</p>
           <p className={classes.name}>- Dr. Sparsh Sharma (NIT Srinagar)</p>
         </div>

@@ -12,13 +12,13 @@
   margin: 2rem;
   text-align: center;
   color: #d72645;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-family: "Bitter", serif;
   letter-spacing: 0.03rem;
 }
 .points {
   margin: 1rem 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .content {
   line-height: 1.8;
@@ -43,19 +43,19 @@
 
 @media (min-width: 1700px) {
   .heading {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .guidelines {
     margin-top: 10rem;
   }
   .content {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 500px) {
   .heading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .content {
     font-size: 0.8rem;
