@@ -5,6 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 function NavBar() {
   const [click, setClick] = useState(false);
   const [open, setOpen] = useState(false);
+  const [open2, setOpen2] = useState(false);
   const navBar = useRef();
   const location = useLocation();
   useEffect(() => {
@@ -68,31 +69,64 @@ function NavBar() {
                 setOpen(!open);
               }}
             >
-              People
+              Committee
               <i className={open ? "fa fa-angle-up" : "fa fa-angle-down"}></i>
             </Link>
             <div className={open ? "dropdown open" : "dropdown"}>
               <Link
-                to={{
-                  pathname: "/",
-                  hash: "speakers",
-                }}
-                onClick={() => {
-                  setOpen(!open);
-                  handleClick();
-                }}
-              >
-                Speakers
-              </Link>
-              <Link
+                // to={{
+                //   pathname: "/",
+                //   hash: "speakers",
+                // }}
                 to="/blog"
                 onClick={() => {
                   setOpen(!open);
                   handleClick();
                 }}
               >
-                Members
+                Organizing Committee
               </Link>
+            { /* <Link
+                to="/blog"
+                onClick={() => {
+                  setOpen(!open);
+                  handleClick();
+                }}
+              >
+                Advisory Committee
+              </Link> */ }
+
+              <Link
+              to=""
+              onClick={(e) => {
+                e.preventDefault();
+                setOpen2(!open2);
+              }}
+            >
+              Advisory Committee
+              <i className={open2 ? "fa fa-angle-up" : "fa fa-angle-down"}></i>
+              <div className={open2 ? "dropdown open" : "dropdown"}>
+              <Link
+              to="/international"
+              onClick={() => {
+                setOpen2(!open2);
+                handleClick();
+              }}
+            >
+              International
+            </Link>
+
+            <Link
+            to="/national"
+            onClick={() => {
+              setOpen2(!open2);
+              handleClick();
+            }}
+          >
+            National
+          </Link>
+              </div>
+            </Link>
             </div>
           </li>
           <li

@@ -63,13 +63,13 @@
   }
   .address,
   .contact-heading {
-    font-size: 1.5rem;
-  }
-  .contact-details {
     font-size: 1.3rem;
   }
+  .contact-details {
+    font-size: 1.1rem;
+  }
   .date-table-heading {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 980px) {
