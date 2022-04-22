@@ -34,6 +34,7 @@
 .gallery-item {
   /* Minimum width of 24rem and grow to fit available space */
   flex: 1 0 24rem;
+  height: 300px;
   /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
   margin: 1rem;
   animation: zoomIn 0.5s ease-in;
@@ -80,15 +81,16 @@ Remove or comment-out the code block below to see how the browser will fall-back
     transform: none;
   }
 }
-@supports (display: grid) {
+/* @supports (display: grid) {
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
     grid-gap: 2rem;
+    grid-template-rows:400px 400px;
   }
 
   .gallery,
   .gallery-item {
     margin: 0;
   }
-}
+} */

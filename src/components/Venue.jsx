@@ -17,7 +17,7 @@ function Venue() {
         <div className={classes.location}>
           <img src={pic} alt="" className={classes.pic} />
         </div>
-        <p className={classes.content}>
+        <p className={classes.content2}>
           The Institute is located in Srinagar, the summer capital of J&K at
           Hazratbal, Srinagar 10 KMS from the city centre. The Campus is
           surrounded by the scenic Himalayan ranges, the Zabarwan Hills and
