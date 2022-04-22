@@ -4,8 +4,8 @@
     text-align: center;
 }
 button {
-    width: 200px;
-    padding: 20px;
+    min-width: 170px;
+    padding: 12px;
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
@@ -15,10 +15,31 @@ button {
 .buttonbox{
    
 }
+/* .img{
+   background: url("../assets/director.jpg");
+   height: 150px;
+   width: 200px;
+   background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.img{
+    height: 150px;
+    width: 200px;
+}
+.patron{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
 
 .shadowbutton {
     background:#1bbbac ;
-    color: #383b3a;
+    color: white;
     border-radius: 5px;
     box-shadow: 0 3px 5px #777777;
+}
+.name{
+    font-size:0.8rem;
 }
