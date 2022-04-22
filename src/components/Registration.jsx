@@ -15,63 +15,41 @@ function Registration() {
       </div>
       <div className={classes.content}>
         <div className={classes.fee}>
-          <h1 className={classes.headingfee}>Registration Fees</h1>
+          <h1 className={classes.headingfee}>Registration Fees</h1><span className={classes.span2}>(exclusive of GST @18%)</span>
           <div className={classes.tablecontainer}>
             <table className={classes.table}>
-              <tr>
-                <td>
-                  Student Registration (for Virtual Participation)
-                </td>
-                <td>IEEE/CSI Member</td>
-                <td>₹4000</td>
-              </tr>
-              <tr>
-                <td>Others</td>
-                <td>₹5000</td>
-              </tr>
-              <tr>
-                <td rowSpan="2">
-                  Student Registration (for Offline Participation)
-                </td>
-                <td>IEEE/CSI Member</td>
-                <td>₹5000</td>
-              </tr>
-              <tr>
-                <td>Others</td>
-                <td>₹6000</td>
-              </tr>
-              <tr>
-                <td rowSpan="2">Faculty Registration</td>
-                <td>IEEE/CSI Member</td>
-                <td>₹7500</td>
-              </tr>
-              <tr>
-                <td>Others</td>
-                <td>₹9000</td>
-              </tr>
-              <tr>
-                <td rowSpan="2">Industry Member</td>
-                <td>IEEE/CSI Member</td>
-                <td>₹9000</td>
-              </tr>
-              <tr>
-                <td>Others</td>
-                <td>₹11000</td>
-              </tr>
-              <tr>
-                <td rowSpan="2">International Registration</td>
-                <td>IEEE/CSI Member</td>
-                <td>$300</td>
-              </tr>
-              <tr>
-                <td>Others</td>
-                <td>$350</td>
-              </tr>
-              <tr>
-                <td>Attendee</td>
-                <td>-</td>
-                <td>₹1000</td>
-              </tr>
+               <tr>
+                <th>Category</th>
+                <th>Amount</th>
+               </tr>
+               <tr>
+                 <td>Industry Experts</td>
+                 <td>₹8,000</td>
+               </tr>
+               <tr>
+                 <td>Students</td>
+                 <td>₹6,000</td>
+               </tr>
+               <tr>
+                 <td>Academicians</td>
+                 <td>₹7,000</td>
+               </tr>
+               <tr>
+                <td>Additional Paper (for one additional paper only)</td>
+                <td>₹4,000</td>
+               </tr>
+               <tr>
+                 <td>Co-Author</td>
+                 <td>₹3,000</td>
+               </tr>
+               <tr>
+                 <td>Listeners</td>
+                 <td>₹1,5000</td>
+               </tr>
+               <tr>
+                 <td>Foreign Authors</td>
+                 <td>$250 or €200</td>
+               </tr>
             </table>
           </div>
         </div>

@@ -56,6 +56,9 @@
   line-height: 2;
   font-weight: bold;
 }
+.span2{
+  color: #d72645;
+}
 
 .fee {
   margin-top: 2rem;
@@ -64,6 +67,8 @@
 .headingfee {
   font-size: 2rem;
   color: #d72645;
+  display: inline-block;
+  margin-right:0.8rem;
 }
 .tablecontainer {
   margin: 2rem auto;
@@ -77,7 +82,7 @@ th,
 td {
   border: 1.5px solid #d72645;
   border-collapse: collapse;
-  padding: 0.6rem;
+  padding: 0.8rem;
   color: #666666;
 }
 .links {
