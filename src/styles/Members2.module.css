@@ -1,0 +1,24 @@
+.content{
+    max-width: 1500px;
+    margin: 2rem auto;
+    text-align: center;
+}
+button {
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+.buttonbox{
+   
+}
+
+.shadowbutton {
+    background:#1bbbac ;
+    color: #383b3a;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px #777777;
+}

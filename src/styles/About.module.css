@@ -14,7 +14,8 @@
 .heading {
   text-align: center;
   font-size: 1.8rem;
-  color: #d72645;
+  /* color: #d72645; */
+  color: #1bbbac;
   margin-bottom: 2rem;
   font-weight: bold;
   font-family: "Bitter", serif;
@@ -37,7 +38,7 @@
   width: 400px;
   margin-right: 2rem;
   border-radius: 0.8rem;
-  background-color:#F6F6F6;
+  background-color:#1bbbac;
 }
 
 .text {

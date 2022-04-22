@@ -13,6 +13,7 @@ import ContactPage from "./components/ContactPage";
 import Keynote from "./components/Keynote";
 import International from "./components/International";
 import National from "./components/National";
+import Members2 from "./components/Members2";
 
 function App() {
   let scrollToTarget = (target) => {
@@ -32,7 +33,7 @@ function App() {
             element={<Home scrollToTarget={scrollToTarget} />}
           ></Route>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/blog" element={<Members />}></Route>
+          <Route path="/blog" element={<Members2 />}></Route>
           <Route path="/registration" element={<Registration />}></Route>
           <Route path="/venue" element={<Venue />}></Route>
           <Route path="/contacts" element={<ContactPage />}></Route>

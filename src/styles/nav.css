@@ -15,12 +15,13 @@
   font-size: 1rem;
 }
 .sticky-navbar {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #1bbbac;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 .navbar.sticky-navbar div a {
-  color: black;
+  color:black;
 }
 .navbar.sticky-navbar div .nav-item:hover:after {
   background: black;

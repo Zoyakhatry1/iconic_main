@@ -11,7 +11,7 @@
 .heading {
   margin: 2rem;
   text-align: center;
-  color: #d72645;
+  color: #1bbbac;
   font-size: 1.8rem;
   font-family: "Bitter", serif;
   letter-spacing: 0.03rem;
@@ -38,7 +38,7 @@
 .tablecontainer table td {
   padding: 20px;
   font-size: 1em;
-  border-color: #d72645;
+  border-color: #1bbbac;
 }
 
 @media (min-width: 1700px) {
