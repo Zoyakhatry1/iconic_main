@@ -11,7 +11,7 @@
   text-align: center;
   box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px,
     rgb(17 17 26 / 20%) 0px 16px 48px;
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
   transition: height 0.5s ease;
   /* background: url("../assets/21770.jpg") no-repeat right top;
   background-size: cover; */
@@ -24,23 +24,22 @@
   font-weight: 600;
   font-size: 1.3rem;
   border: none;
-  color: white;
 }
 .track-list > * {
-  color: rgb(67, 67, 68);
+  color: white;
   transition: all 0.5s;
   font-size: 1rem;
 }
 .expand-tracks .fa {
   font-size: 30px;
   cursor: pointer;
-  color: white;
+  color: var(--main-color);
   margin-bottom: 10px;
 }
 .track-list.two {
   text-align: left;
-  background: white;
-  padding-left: 10%;
+  background: var(--main-color);
+  padding-left: 12%;
   height: 0;
   overflow: hidden;
   display: flex;

@@ -32,6 +32,17 @@ function NavBar() {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li
             className={
+              window.location.pathname === "/"
+                ? "nav-item selected"
+                : "nav-item"
+            }
+          >
+            <Link to="/" className="nav-links" onClick={handleClick}>
+              Home
+            </Link>
+          </li>
+          <li
+            className={
               window.location.pathname === "/about"
                 ? "nav-item selected"
                 : "nav-item"
@@ -96,8 +107,7 @@ function NavBar() {
                 Advisory Committee
               </Link> */}
 
-              <Link
-                to=""
+              <div
                 onClick={(e) => {
                   e.preventDefault();
                   setOpen2(!open2);
@@ -128,7 +138,7 @@ function NavBar() {
                     National
                   </Link>
                 </div>
-              </Link>
+              </div>
             </div>
           </li>
           <li

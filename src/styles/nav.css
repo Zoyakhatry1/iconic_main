@@ -21,13 +21,13 @@
     rgba(17, 17, 26, 0.1) 0px 16px 48px;
 }
 .navbar.sticky-navbar div a {
-  color:black;
+  color: white;
 }
 .navbar.sticky-navbar div .nav-item:hover:after {
-  background: black;
+  background: white;
 }
 .navbar.sticky-navbar div .nav-item.selected:after {
-  background: black;
+  background: white;
 }
 .nav-container {
   display: flex;
@@ -63,7 +63,7 @@
 .nav-links {
   color: #fff;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   height: 100%;
   border-bottom: 3px solid transparent;
 }
@@ -73,7 +73,7 @@
 
 .nav-item {
   line-height: 40px;
-  margin-right: 1rem;
+  margin-right: 0.7rem;
 }
 .nav-item.selected:after {
   width: 100%;
@@ -105,7 +105,7 @@
   position: absolute;
   flex-direction: column;
   background: white;
-  color: black;
+  color: var(--main-color);
   padding: 15px 20px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 48px;
@@ -135,10 +135,10 @@
     overflow-y: visible;
   }
   .navbar.sticky-navbar div .fas {
-    color: black;
+    color: white;
   }
   .navbar.sticky-navbar div .nav-menu.active {
-    background: rgba(255, 255, 255, 0.7);
+    background: #1bbbac;
   }
   .nav-menu {
     display: flex;
@@ -185,6 +185,7 @@
     width: 100%;
     font-weight: 600;
     color: white;
+    padding: 10px 0;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -192,8 +193,8 @@
     font-size: 0.85rem;
   }
 }
-@media screen and (min-width: 1700px) {
-  /* .navbar {
-    font-size: 1.4rem;
-  } */
-}
+@media screen and (min-width: 1800px) {
+  .navbar {
+    justify-content: space-between;
+  }
+} ;

@@ -17,60 +17,60 @@
 }
 @-webkit-keyframes glowing {
   0% {
-    background-color: #01eeff;
-    -webkit-box-shadow: 0 0 3px #01eeff;
+    background-color: red;
+    -webkit-box-shadow: 0 0 3px red;
   }
   50% {
     background-color: #ffe600;
     -webkit-box-shadow: 0 0 40px #ffe600;
   }
   100% {
-    background-color: #01eeff;
-    -webkit-box-shadow: 0 0 3px #01eeff;
+    background-color: red;
+    -webkit-box-shadow: 0 0 3px red;
   }
 }
 
 @-moz-keyframes glowing {
   0% {
-    background-color: #01eeff;
-    -moz-box-shadow: 0 0 3px #01eeff;
+    background-color: red;
+    -moz-box-shadow: 0 0 3px red;
   }
   50% {
     background-color: #ffe600;
     -moz-box-shadow: 0 0 40px #ffe600;
   }
   100% {
-    background-color: #01eeff;
-    -moz-box-shadow: 0 0 3px #01eeff;
+    background-color: red;
+    -moz-box-shadow: 0 0 3px red;
   }
 }
 
 @-o-keyframes glowing {
   0% {
-    background-color: #01eeff;
-    box-shadow: 0 0 3px #01eeff;
+    background-color: red;
+    box-shadow: 0 0 3px red;
   }
   50% {
     background-color: #ffe600;
     box-shadow: 0 0 40px #ffe600;
   }
   100% {
-    background-color: #01eeff;
-    box-shadow: 0 0 3px #01eeff;
+    background-color: red;
+    box-shadow: 0 0 3px red;
   }
 }
 
 @keyframes glowing {
   0% {
-    background-color: #01eeff;
-    box-shadow: 0 0 3px #01eeff;
+    background-color: red;
+    box-shadow: 0 0 3px red;
   }
   50% {
     background-color: #ffe600;
     box-shadow: 0 0 40px #ffe600;
   }
   100% {
-    background-color: #01eeff;
-    box-shadow: 0 0 3px #01eeff;
+    background-color: red;
+    box-shadow: 0 0 3px red;
   }
 }
