@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap");
 :root {
---main-color: #1bbbac;
+  --main-color: #1bbbac;
 }
 * {
   margin: 0%;
@@ -32,10 +32,10 @@ a {
   text-align: center;
   font-size: 2rem;
   padding: 0 20px;
-  color: yellow;
+  color: #9dfff5;
   text-decoration: underline;
   font-family: "Bitter", serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 @media screen and (min-width: 500px) {
   .page-heading span {
@@ -44,7 +44,7 @@ a {
 }
 @media screen and (min-width: 800px) {
   .page-heading span {
-    font-size: 3.8rem;
+    font-size: 4.5rem;
   }
   .page-heading {
     height: 45vh;
@@ -52,6 +52,6 @@ a {
 }
 @media screen and (min-width: 1500px) {
   .page-heading span {
-    font-size: 3rem;
+    font-size: 5.5rem;
   }
 }

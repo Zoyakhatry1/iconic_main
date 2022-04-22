@@ -87,10 +87,10 @@ function Home({ scrollToTarget }) {
               />
             </div>
             <div className="logo">
-              <img src={require("../assets/iitJammu.png")} alt="iit jammu" />
+              <img src={require("../assets/R (24).png")} alt="springer" />
             </div>
             <div className="logo">
-              <img src={require("../assets/R (24).png")} alt="springer" />
+              <img src={require("../assets/iit-jammu.png")} alt="iit jammu" />
             </div>
           </div>
         </div>

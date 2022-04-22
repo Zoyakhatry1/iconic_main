@@ -15,41 +15,46 @@ function Registration() {
       </div>
       <div className={classes.content}>
         <div className={classes.fee}>
-          <h1 className={classes.headingfee}>Registration Fees</h1><span className={classes.span2}>(exclusive of GST @18%)</span>
+          <h1 className={classes.headingfee}>Registration Fees</h1>
+          <span className={classes.span2}>(exclusive of GST @18%)</span>
           <div className={classes.tablecontainer}>
             <table className={classes.table}>
-               <tr>
-                <th>Category</th>
-                <th>Amount</th>
-               </tr>
-               <tr>
-                 <td>Industry Experts</td>
-                 <td>₹8,000</td>
-               </tr>
-               <tr>
-                 <td>Students</td>
-                 <td>₹6,000</td>
-               </tr>
-               <tr>
-                 <td>Academicians</td>
-                 <td>₹7,000</td>
-               </tr>
-               <tr>
-                <td>Additional Paper (for one additional paper only)</td>
-                <td>₹4,000</td>
-               </tr>
-               <tr>
-                 <td>Co-Author</td>
-                 <td>₹3,000</td>
-               </tr>
-               <tr>
-                 <td>Listeners</td>
-                 <td>₹1,5000</td>
-               </tr>
-               <tr>
-                 <td>Foreign Authors</td>
-                 <td>$250 or €200</td>
-               </tr>
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Industry Experts</td>
+                  <td>₹8,000</td>
+                </tr>
+                <tr>
+                  <td>Students</td>
+                  <td>₹6,000</td>
+                </tr>
+                <tr>
+                  <td>Academicians</td>
+                  <td>₹7,000</td>
+                </tr>
+                <tr>
+                  <td>Additional Paper (for one additional paper only)</td>
+                  <td>₹4,000</td>
+                </tr>
+                <tr>
+                  <td>Co-Author</td>
+                  <td>₹3,000</td>
+                </tr>
+                <tr>
+                  <td>Listeners</td>
+                  <td>₹1,5000</td>
+                </tr>
+                <tr>
+                  <td>Foreign Authors</td>
+                  <td>$250 or €200</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>

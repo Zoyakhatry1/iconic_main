@@ -126,28 +126,30 @@ function AuthorGuidelines() {
             <h1 className={classes.heading}>Important Dates</h1>
             <div className="table-container red">
               <table>
-                <tr>
-                  <td id="important">Submission Deadline</td>
-                  <td>
-                    31st July, 2021<span className="glow-text">open</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Acceptance Notification</td>
-                  <td>5th August, 2021</td>
-                </tr>
-                <tr>
-                  <td>Early-Bird Registrations</td>
-                  <td>15th August, 2021</td>
-                </tr>
-                <tr>
-                  <td>Camera-Ready Submission</td>
-                  <td>25th August, 2021</td>
-                </tr>
-                <tr>
-                  <td>Submission Deadline</td>
-                  <td>25th August, 2021</td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td id="important">Submission Deadline</td>
+                    <td>
+                      31st July, 2021<span className="glow-text">open</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Acceptance Notification</td>
+                    <td>5th August, 2021</td>
+                  </tr>
+                  <tr>
+                    <td>Early-Bird Registrations</td>
+                    <td>15th August, 2021</td>
+                  </tr>
+                  <tr>
+                    <td>Camera-Ready Submission</td>
+                    <td>25th August, 2021</td>
+                  </tr>
+                  <tr>
+                    <td>Submission Deadline</td>
+                    <td>25th August, 2021</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </div>

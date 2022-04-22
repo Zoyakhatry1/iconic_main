@@ -20,7 +20,15 @@ function NavBar() {
     window.onscroll = function () {
       myFunction();
     };
-  }, []);
+    const update = (e) => {
+      if (open || open2) {
+        setOpen(false);
+        setOpen2(false);
+      }
+    };
+    window.addEventListener("click", update);
+    return () => window.removeEventListener("click", update);
+  }, [open, open2]);
   const handleClick = () => setClick(!click);
   return (
     <nav className="navbar" ref={navBar}>
@@ -77,6 +85,7 @@ function NavBar() {
               className="nav-links"
               onClick={(e) => {
                 e.preventDefault();
+                e.stopPropagation();
                 setOpen(!open);
               }}
             >
@@ -108,8 +117,10 @@ function NavBar() {
               </Link> */}
 
               <div
+                style={{ color: "#1bbbac", cursor: "pointer" }}
                 onClick={(e) => {
                   e.preventDefault();
+                  e.stopPropagation();
                   setOpen2(!open2);
                 }}
               >
@@ -122,6 +133,7 @@ function NavBar() {
                     to="/international"
                     onClick={() => {
                       setOpen2(!open2);
+                      setOpen(!open);
                       handleClick();
                     }}
                   >
@@ -132,6 +144,7 @@ function NavBar() {
                     to="/national"
                     onClick={() => {
                       setOpen2(!open2);
+                      setOpen(!open);
                       handleClick();
                     }}
                   >

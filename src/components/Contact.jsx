@@ -29,10 +29,10 @@ function Contact() {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13211.306237068737!2d74.8375422!3d34.1251897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf5ec84b1ac8f98d!2sNational%20Institute%20of%20Technology%20(NIT)%2C%20Srinagar!5e0!3m2!1sen!2sin!4v1649234069186!5m2!1sen!2sin"
             style={{ border: 0 }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
             title="nit-srinagar"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
