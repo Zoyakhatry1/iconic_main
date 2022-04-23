@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import classes from "../styles/Venue.module.css";
-import pic from "../assets/nit_image.jpg";
+import decimg from "../assets/DEC.jpg";
+
 function Venue() {
   const videoRef = useRef();
   const [hide, setHide] = useState(false);
@@ -31,7 +32,7 @@ function Venue() {
       </div>
       <div className={classes.content}>
         <div className={classes.location}>
-          <img src={pic} alt="" className={classes.pic} />
+          <img src={decimg} alt="" className={classes.pic} />
 
           <div
             className={hide ? classes.hide : classes.playBtn}

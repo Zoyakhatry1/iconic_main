@@ -68,6 +68,9 @@
   .date-table-heading {
     font-size: 2rem;
   } */
+  .map-container{
+    height: 40%;
+  }
 }
 @media (max-width: 980px) {
   .map-container {

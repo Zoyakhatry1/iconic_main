@@ -38,8 +38,8 @@
   margin: 3rem 2rem;
 }
 .pic {
-  height: 500px;
-  width: 80%;
+  height: 400px;
+  width: 70%;
   border-radius: 0.8rem;
 }
 .map {
@@ -85,7 +85,7 @@
   );
   border-radius: 50%;
   position: absolute;
-  top: 25%;
+  top: 15%;
   cursor: pointer;
   display: block;
   margin: 100px auto;
