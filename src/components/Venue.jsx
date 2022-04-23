@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import classes from "../styles/Venue.module.css";
-import pic from "../assets/nit_image.jpg";
+import decimg from "../assets/DEC.jpg";
+
+
 function Venue() {
   useEffect(() => {
     window.scrollTo({
@@ -15,7 +17,7 @@ function Venue() {
       </div>
       <div className={classes.content}>
         <div className={classes.location}>
-          <img src={pic} alt="" className={classes.pic} />
+          <img src={decimg} alt="" className={classes.pic} />
         </div>
         <p className={classes.content2}>
           The Institute is located in Srinagar, the summer capital of J&K at

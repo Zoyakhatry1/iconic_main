@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "../styles/App.css";
 import classes from "../styles/Members2.module.css";
 import dirimg from "../assets/director.jpg";
@@ -7,6 +7,12 @@ import hodimg from "../assets/prof.jpg";
 import Card from './Card';
 
 function International() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div>
     <div className="page-heading">

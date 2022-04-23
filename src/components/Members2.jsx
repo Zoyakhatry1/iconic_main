@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import classes from "../styles/Members2.module.css";
 import Card from "./Card";
 import dirimg from "../assets/director.jpg";
@@ -14,7 +14,16 @@ import org3 from "../assets/org3.jpg";
 import org4 from "../assets/org4.jpg";
 import org5 from "../assets/org5.jpg";
 
+
+
 function Members2() {
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className={classes.main}>
       <div className="page-heading">
