@@ -63,7 +63,6 @@
 }
 .logos .logo {
   width: 25%;
-  min-width: 200px;
   display: flex;
   align-items: center;
 }

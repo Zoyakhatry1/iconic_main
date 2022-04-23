@@ -1,7 +1,23 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import classes from "../styles/Venue.module.css";
 import pic from "../assets/nit_image.jpg";
 function Venue() {
+  const videoRef = useRef();
+  const [hide, setHide] = useState(false);
+  const handleClick = (e) => {
+    if (!hide) {
+      const iframe = document.createElement("iframe");
+      iframe.src = "https://www.youtube.com/embed/HK8cYxaRZP0";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allowFullscreen = true;
+      iframe.title = "NIT SRINAGAR TOUR";
+      videoRef.current.appendChild(iframe);
+    } else {
+      videoRef.current.removeChild(videoRef.current.lastElementChild);
+    }
+    setHide(!hide);
+  };
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -16,6 +32,18 @@ function Venue() {
       <div className={classes.content}>
         <div className={classes.location}>
           <img src={pic} alt="" className={classes.pic} />
+
+          <div
+            className={hide ? classes.hide : classes.playBtn}
+            onClick={handleClick}
+          ></div>
+          <div className={!hide ? classes.hide : classes.video} ref={videoRef}>
+            <i
+              class="fa fa-window-close"
+              aria-hidden="true"
+              onClick={handleClick}
+            ></i>
+          </div>
         </div>
         <p className={classes.content2}>
           The Institute is located in Srinagar, the summer capital of J&K at
