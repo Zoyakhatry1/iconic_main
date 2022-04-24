@@ -5,16 +5,16 @@ function Footer() {
   return (
     <div className={classes.footer}>
       <div
-        className="logos"
+        className={classes.logos}
         style={{ background: "white", marginBottom: "30px" }}
       >
-        <div className="logo">
+        <div className={classes.logo}>
           <img src={require("../assets/NIT Srinagar.png")} alt="nit srinagar" />
         </div>
-        <div className="logo">
+        <div className={classes.logo}>
           <img src={require("../assets/R (24).png")} alt="springer" />
         </div>
-        <div className="logo">
+        <div className={classes.logo}>
           <img src={require("../assets/iit-jammu.png")} alt="iit jammu" />
         </div>
       </div>
