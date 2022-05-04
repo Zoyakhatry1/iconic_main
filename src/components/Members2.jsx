@@ -39,7 +39,7 @@ function Members2() {
             <img className={classes.img} src={dirimg} alt="" />
             </div>
             <p className={classes.name}>
-              - Prof(Dr.) Rakesh Sehgal (Director, NIT Srinagar, India)
+               Prof(Dr.) Rakesh Sehgal (Director, NIT Srinagar, India)
             </p>
           </Card>
 
@@ -49,7 +49,7 @@ function Members2() {
             </div>
             <p className={classes.name}>
               {" "}
-              - Prof(Dr.) Manoj Singh Gaur (Director, IIT Jammu, India)
+               Prof(Dr.) Manoj Singh Gaur (Director, IIT Jammu, India)
             </p>
           </Card>
         </div>
@@ -62,7 +62,7 @@ function Members2() {
              <img className={classes.img} src={hodimg} alt="" />
            </div>
             <p className={classes.name}>
-              - Prof. Roohie Naaz Mir (HOD, CSE , NIT Srinagar, India)
+               Prof. Roohie Naaz Mir (HOD, CSE , NIT Srinagar, India)
             </p>
           </Card>
         </div>
@@ -76,7 +76,7 @@ function Members2() {
             <img className={classes.img} src={tech1} alt="" />
             </div>
             <p className={classes.name}>
-            - Dr. Shaima Qureshi (NIT Srinagar, India
+             Dr. Shaima Qureshi (NIT Srinagar, India
             </p>
           </Card>
           <Card>
@@ -84,7 +84,7 @@ function Members2() {
             <img className={classes.img} src={tech2} alt="" />
           </div>
             <p className={classes.name}>
-            - Dr. Dharitri Rath (IIT Jammu, India)
+             Dr. Dharitri Rath (IIT Jammu, India)
             </p>
           </Card>
           <Card>
@@ -92,7 +92,7 @@ function Members2() {
             <img className={classes.img} src={tech3} alt="" />
           </div>
             <p className={classes.name}>
-            - Dr. Badri N subudhi (IIT Jammu, India)
+             Dr. Badri N subudhi (IIT Jammu, India)
             </p>
           </Card>
           <Card>
@@ -100,7 +100,7 @@ function Members2() {
             <img className={classes.img} src={tech4} alt="" />
           </div>
             <p className={classes.name}>
-            - Dr. Vinit Jakhetiya (IIT Jammu, India)
+             Dr. Vinit Jakhetiya (IIT Jammu, India)
             </p>
           </Card>
         </div>
@@ -114,7 +114,7 @@ function Members2() {
             <img className={classes.img} src={org1} alt="" />
           </div>
             <p className={classes.name}>
-            - Dr. Ranjeet Kumar Rout (NIT Srinagar, India)
+             Dr. Ranjeet Kumar Rout (NIT Srinagar, India)
             </p>
           </Card>
           <Card>
@@ -123,7 +123,7 @@ function Members2() {
             <img className={classes.img} src={org2} alt="" />
           </div>
             <p className={classes.name}>
-            - Dr. Sparsh Sharma (NIT Srinagar, India)
+             Dr. Sparsh Sharma (NIT Srinagar, India)
             </p>
           </Card>
           <Card>
@@ -131,7 +131,7 @@ function Members2() {
             <img className={classes.img} src={org3} alt="" />
           </div>
             <p className={classes.name}>
-            - Dr. Pramod Kumar Yadav (NIT Srinagar)
+             Dr. Pramod Kumar Yadav (NIT Srinagar)
             </p>
           </Card>
           <Card>
@@ -139,7 +139,7 @@ function Members2() {
           <img className={classes.img} src={org4} alt="" />
           </div>
             <p className={classes.name}>
-            - Dr. Veningston K (NIT Srinagar, India)
+             Dr. Veningston K (NIT Srinagar, India)
             </p>
           </Card>
           <Card>
@@ -147,7 +147,7 @@ function Members2() {
             <img className={classes.img} src={org5} alt="" />
           </div>
             <p className={classes.name}>
-            - Dr. Saiyed Umer (Aliah University, Kolkata, India)
+             Dr. Saiyed Umer (Aliah University, Kolkata, India)
             </p>
           </Card>
         </div>
@@ -162,10 +162,10 @@ function Members2() {
             <div className={classes.names}>
               <p className={classes.name2}>
                 {" "}
-                - Dr. Ranjeet Kumar Rout (NIT Srinagar, India)
+                 Dr. Ranjeet Kumar Rout (NIT Srinagar, India)
               </p>
               <p className={classes.name2}>
-                - Dr. Saiyed Umer (Aliah University, Kolkata, India)
+                 Dr. Saiyed Umer (Aliah University, Kolkata, India)
               </p>
             </div>
           </div>
@@ -179,10 +179,10 @@ function Members2() {
             <div className={classes.names}>
               <p className={classes.name2}>
                 {" "}
-                - Dr. Pramod Kumar Yadav (NIT Srinagar, India)
+                 Dr. Pramod Kumar Yadav (NIT Srinagar, India)
               </p>
               <p className={classes.name2}>
-              - Dr. Veningston K (NIT Srinagar, India)
+               Dr. Veningston K (NIT Srinagar, India)
               </p>
             </div>
           </div>
@@ -196,11 +196,11 @@ function Members2() {
             <div className={classes.names}>
               <p className={classes.name2}>
                 {" "}
-                - Dr. Ranjeet Kumar Rout (NIT Srinagar, India)
+                 Dr. Ranjeet Kumar Rout (NIT Srinagar, India)
               </p>
               <p className={classes.name2}>- Dr. Sparsh Sharma (NIT Srinagar, India)</p>
               <p className={classes.name2}>
-              - Dr. Sudhir (NIT Srinagar, India)
+              Dr. Sudhir (NIT Srinagar, India)
               </p>
               <p className={classes.name2}>- Dr. Saiyed Umer (NIT Srinagar, India)</p> 
             </div>
@@ -214,7 +214,7 @@ function Members2() {
             <div className={classes.names}>
               <p className={classes.name2}>
                 {" "}
-                - Dr. Annu Priya
+                 Dr. Annu Priya
               </p>
             </div>
           </div>

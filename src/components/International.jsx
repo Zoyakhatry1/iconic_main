@@ -1,10 +1,7 @@
 import React,{useEffect} from 'react';
 import "../styles/App.css";
-import classes from "../styles/Members2.module.css";
-import dirimg from "../assets/director.jpg";
-import iitdir from "../assets/iit_director.png";
-import hodimg from "../assets/prof.jpg";
-import Card from './Card';
+import classes from "../styles/National.module.css";
+import Button from './Button';
 
 function International() {
   useEffect(() => {
@@ -18,37 +15,21 @@ function International() {
     <div className="page-heading">
     <span>International Committee</span>
      </div>
-     <div className={classes.content}>
-     <div className={classes.buttonbox}>
-       <button className={classes.shadowbutton}>Patron</button>
-     </div>
-     <div className={classes.patron}>
-       <Card>
-         <img className={classes.img} src={dirimg} alt="" />
-         <p className={classes.name}>
-           - Prof(Dr.) Rakesh Sehgal (Director, NIT Srinagar, India)
-         </p>
-       </Card>
-       <Card>
-         <img className={classes.img} src={iitdir} alt="" />
-         <p className={classes.name}>
-           {" "}
-           - Prof(Dr.) Manoj Singh Gaur (Director, IIT Jammu, India)
-         </p>
-       </Card>
-     </div>
-     <div className={classes.buttonbox}>
-       <button className={classes.shadowbutton}>Conference chair</button>
-     </div>
-     <div className={classes.patron}>
-       <Card>
-         <img className={classes.img} src={hodimg} alt="" />
-         <p className={classes.name}>
-           - Prof. Roohie Naaz Mir (HOD, CSE , NIT Srinagar, India)
-         </p>
-       </Card>
-     </div>
-   </div>
+      <div className={classes.flex}>
+        <Button>Dr. Sarmistha Batra (McGill University</Button>
+        <Button>Dr. Daniel (QueenLand University)</Button>
+        <Button>Prof. Vijayan K. Asari (University of Dayton, Ohio, USA)</Button>
+        <Button>Prof. Muhammad Khurram Khan (King Saud University, Riyadh, Saudi Arabia)</Button>
+        <Button>Prof. Michele NAPPI (University of Salerno, Italy)</Button>
+        <Button>Prof. Hari Mohan Pandey (Edge Hill University, United Kingdom)</Button>
+        <Button>Prof. Amir H. Gandomi (University of Technology Sydney)</Button>
+        <Button>Prof. Carmen Bisogni (Università Di Salerno, Italy)</Button>
+        <Button>Prof. Aniello Castiglione (University of Naples Parthenope, Italy)</Button>
+        <Button>Prof. Peerapong Uthansakul (Suranaree University of Technology, Thailand)</Button>
+        <Button>Prof. Abdeld Jalil Ouahabi (Universiti De Tours, France)</Button>
+        <Button>Prof. Fahd N. Al-Wesabi (King Khalid University, Saudi Arabia)</Button>
+        <Button> Prof. Ahmad Ali AlZubi (King Saud University, Riyadh, Saudi Arabia)</Button>
+      </div>
      
     </div>
   )
