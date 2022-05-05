@@ -3,7 +3,7 @@ import classes from "../styles/AuthorGuidelines.module.css";
 import TrackCard2 from "./TrackCard2";
 import "../styles/TextGlow.css";
 
-function AuthorGuidelines() {
+function AuthorGuidelines({ trackArray }) {
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -19,11 +19,9 @@ function AuthorGuidelines() {
         <section id="tracks-container">
           <h3 className="date-table-heading contacts">Tracks</h3>
           <div id="tracks">
-            <TrackCard2 />
-            <TrackCard2 />
-            <TrackCard2 />
-            <TrackCard2 />
-            <TrackCard2 />
+            {trackArray.map((item) => (
+              <TrackCard2 track={item} />
+            ))}
           </div>
         </section>
         <div className={classes.guidelines}>

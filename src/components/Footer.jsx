@@ -4,10 +4,7 @@ import classes from "../styles/Footer.module.css";
 function Footer() {
   return (
     <div className={classes.footer}>
-      <div
-        className={classes.logos}
-        style={{ background: "white", marginBottom: "30px" }}
-      >
+      <div className={classes.logos} style={{ marginBottom: "30px" }}>
         <div className={classes.logo}>
           <img src={require("../assets/NIT Srinagar.png")} alt="nit srinagar" />
         </div>

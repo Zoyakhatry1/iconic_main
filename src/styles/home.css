@@ -59,10 +59,10 @@
   justify-self: flex-end;
   display: flex;
   justify-content: space-evenly;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
 }
 .logos .logo {
-  width: 20%;
+  width: 25%;
   max-width: 450px;
   display: flex;
   align-items: center;
@@ -80,12 +80,17 @@
   padding-top: 10vh;
 }
 .sub-text {
-  width: 80%;
-  padding: 10px;
+  padding: 15px;
   font-size: 0.45em;
   text-align: center;
   font-weight: 500;
   color: yellow;
+}
+.sub-text table tr td,
+.sub-text table {
+  border: none;
+  color: yellow;
+  padding: 0 2rem;
 }
 .about-iconic {
   display: flex;

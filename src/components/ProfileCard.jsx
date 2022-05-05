@@ -10,8 +10,7 @@ function ProfileCard() {
       <div className="card-content">
         <h2>Name</h2>
         <p>About the speaker here</p>
-        <p>About the speaker here</p>
-        <p>About the speaker here</p>
+        <p>To be updated...</p>
         <div className="links">
           <a href="/">
             <i className="fab fa-facebook"></i>

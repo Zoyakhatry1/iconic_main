@@ -8,7 +8,7 @@ import ProfileCard from "./ProfileCard";
 import TrackCard2 from "./TrackCard2";
 import Contact from "./Contact";
 import { Link } from "react-router-dom";
-function Home({ scrollToTarget }) {
+function Home({ scrollToTarget, trackArray }) {
   const location = useLocation();
   const tracks = useRef();
   const speakers = useRef();
@@ -75,8 +75,16 @@ function Home({ scrollToTarget }) {
             </div>
             <h1>Intelligent Computing</h1>
             <div className="sub-text">
-              ORGANISED BY :-
-              <br /> DEPARTMENT OF CSE - NIT SRINAGAR | IIT JAMMU
+              <table>
+                <tr style={{ whiteSpace: "nowrap" }}>
+                  <td>ORGANISED BY:-</td>
+                  <td>COLLABORATION WITH:-</td>
+                </tr>
+                <tr style={{ whiteSpace: "nowrap" }}>
+                  <td>DEPARTMENT OF CSE - NIT SRINAGAR</td>
+                  <td>IIT JAMMU</td>
+                </tr>
+              </table>
             </div>
           </div>
           <div className="logos">
@@ -153,11 +161,9 @@ function Home({ scrollToTarget }) {
       <section id="tracks-container" ref={tracks}>
         <h3 className="date-table-heading contacts">Tracks</h3>
         <div id="tracks">
-          <TrackCard2 />
-          <TrackCard2 />
-          <TrackCard2 />
-          <TrackCard2 />
-          <TrackCard2 />
+          {trackArray.map((item) => (
+            <TrackCard2 track={item} />
+          ))}
         </div>
       </section>
       <section id="table">
