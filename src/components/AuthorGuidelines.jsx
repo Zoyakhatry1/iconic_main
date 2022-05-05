@@ -19,8 +19,8 @@ function AuthorGuidelines({ trackArray }) {
         <section id="tracks-container">
           <h3 className="date-table-heading contacts">Tracks</h3>
           <div id="tracks">
-            {trackArray.map((item) => (
-              <TrackCard2 track={item} />
+            {trackArray.map((item, index) => (
+              <TrackCard2 track={item} key={index} />
             ))}
           </div>
         </section>
@@ -126,26 +126,27 @@ function AuthorGuidelines({ trackArray }) {
               <table>
                 <tbody>
                   <tr>
-                    <td id="important">Submission Deadline</td>
-                    <td>
-                      31st July, 2021<span className="glow-text">open</span>
+                    <td rowSpan={2}>Main Conference</td>
+                    <td>Paper Submission Deadlines</td>
+                    <td style={{ whiteSpace: "nowrap" }}>
+                      15/07/2022 <span className="glow-text">open</span>{" "}
                     </td>
                   </tr>
                   <tr>
-                    <td>Acceptance Notification</td>
-                    <td>5th August, 2021</td>
+                    <td>Notification for Paper Acceptance</td>
+                    <td>15/07/2022</td>
                   </tr>
                   <tr>
-                    <td>Early-Bird Registrations</td>
-                    <td>15th August, 2021</td>
+                    <td colSpan={2}>Camera Ready Submission Deadline</td>
+                    <td>20/08/2022</td>
                   </tr>
                   <tr>
-                    <td>Camera-Ready Submission</td>
-                    <td>25th August, 2021</td>
+                    <td colSpan={2}>Late Registration Deadline</td>
+                    <td>20/08/2022</td>
                   </tr>
                   <tr>
-                    <td>Submission Deadline</td>
-                    <td>25th August, 2021</td>
+                    <td colSpan={2}>Conference Dates</td>
+                    <td>28/09/2022 to 29/09/2022</td>
                   </tr>
                 </tbody>
               </table>

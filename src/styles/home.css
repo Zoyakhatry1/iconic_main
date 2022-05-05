@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: center;
   position: sticky;
-  margin: 8% 0 2% 0;
+  margin: 10% 0 2% 0;
 }
 .slide-content h1 {
   color: white;
@@ -54,6 +54,39 @@
   bottom: 10%;
   left: 50%;
   font-size: 2em;
+}
+.moving-text {
+  max-width: 600px;
+  margin: 1em auto;
+  overflow: hidden;
+  position: relative;
+  min-height: 4em;
+  font-size: 15px;
+  width: 80%;
+  color: yellow;
+}
+.example-right {
+  position: absolute;
+  white-space: nowrap;
+  text-transform: uppercase;
+  animation: urmove 9s linear infinite;
+}
+@-webkit-keyframes urmove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes urmove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
 }
 .logos {
   justify-self: flex-end;

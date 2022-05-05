@@ -76,16 +76,26 @@ function Home({ scrollToTarget, trackArray }) {
             <h1>Intelligent Computing</h1>
             <div className="sub-text">
               <table>
-                <tr style={{ whiteSpace: "nowrap" }}>
-                  <td>ORGANISED BY:-</td>
-                  <td>COLLABORATION WITH:-</td>
-                </tr>
-                <tr style={{ whiteSpace: "nowrap" }}>
-                  <td>DEPARTMENT OF CSE - NIT SRINAGAR</td>
-                  <td>IIT JAMMU</td>
-                </tr>
+                <tbody>
+                  <tr style={{ whiteSpace: "nowrap" }}>
+                    <td>ORGANISED BY:-</td>
+                    <td>COLLABORATION WITH:-</td>
+                  </tr>
+                  <tr style={{ whiteSpace: "nowrap" }}>
+                    <td>DEPARTMENT OF CSE - NIT SRINAGAR</td>
+                    <td>IIT JAMMU</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
+          </div>
+          <div className="moving-text">
+            <p class="example-right">
+              START START ipsum dolor sit amet, consectetur adipisicing elit.
+              Error, rem iste commodi ipsum cumque temporibus ullam qui dolor
+              obcaecati facilis ducimus minima fugiat aspernatur laborum eveniet
+              adipisci libero atque END END.
+            </p>
           </div>
           <div className="logos">
             <div className="logo">
@@ -161,8 +171,8 @@ function Home({ scrollToTarget, trackArray }) {
       <section id="tracks-container" ref={tracks}>
         <h3 className="date-table-heading contacts">Tracks</h3>
         <div id="tracks">
-          {trackArray.map((item) => (
-            <TrackCard2 track={item} />
+          {trackArray.map((item, index) => (
+            <TrackCard2 track={item} key={index} />
           ))}
         </div>
       </section>
@@ -170,28 +180,31 @@ function Home({ scrollToTarget, trackArray }) {
         <h3 className="date-table-heading">Important Dates</h3>
         <div className="table-container">
           <table>
-            <tr id="important">
-              <td>Submission Deadline</td>
-              <td>
-                31st July, 2021 <span className="glow-text">open</span>
-              </td>
-            </tr>
-            <tr>
-              <td>Acceptance Notification</td>
-              <td>5th August, 2021</td>
-            </tr>
-            <tr>
-              <td>Early-Bird Registrations</td>
-              <td>15th August, 2021</td>
-            </tr>
-            <tr>
-              <td>Camera-Ready Submission</td>
-              <td>25th August, 2021</td>
-            </tr>
-            <tr>
-              <td>Submission Deadline</td>
-              <td>25th August, 2021</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td rowSpan={2}>Main Conference</td>
+                <td>Paper Submission Deadlines</td>
+                <td style={{ whiteSpace: "nowrap" }}>
+                  15/07/2022 <span className="glow-text">open</span>{" "}
+                </td>
+              </tr>
+              <tr>
+                <td>Notification for Paper Acceptance</td>
+                <td>15/07/2022</td>
+              </tr>
+              <tr>
+                <td colSpan={2}>Camera Ready Submission Deadline</td>
+                <td>20/08/2022</td>
+              </tr>
+              <tr>
+                <td colSpan={2}>Late Registration Deadline</td>
+                <td>20/08/2022</td>
+              </tr>
+              <tr>
+                <td colSpan={2}>Conference Dates</td>
+                <td>28/09/2022 to 29/09/2022</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </section>
