@@ -64,7 +64,18 @@ button {
     animation: zoomIn 0.5s ease-in;
   overflow: hidden;
 }
-
+.names2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    text-align: left;
+}
+.names2 div{
+    margin: 0 6rem;
+}
+.names2 .margin{
+    margin-left: 11rem;
+}
 @media(max-width:600px)
 {
     .patron{

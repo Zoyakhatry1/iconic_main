@@ -22,8 +22,8 @@ function About() {
         <div className={classes.info}>
           <div>
             <p className={classes.text}>
-              National Institute of Technology, Srinagar is one of the premier
-              Educational Institutes in the Northern Regions of the country. It
+              National Institute of Technology Srinagar is one of the premier
+              Educational Institutes in the Northern Region of the Country. It
               was established in 1960 and has been one of the eighteen Regional
               Engineering Colleges sponsored by the Govt. of India during the
               2nd Plan. The Institute acquired the status of National Institute
@@ -52,15 +52,15 @@ function About() {
           </div>
           <div>
             <p className={classes.text}>
-              The Department of Computer Science& Engineering embodies the
+              The Department of Computer Science& Engineering (CSE) embodies the
               Institute's tradition of excellence as a world-class leader in
-              computer science and engineering education and research. CSE is in
+              Computer Science and Engineering education and research. CSE is in
               a period of exciting growth and opprtunity. In the current ever
               evolving industrial scenario contents delivered to the students
               are regularly updated by the faculty members who have themselves
               been at the helm of path breaking research and innovations. In
-              addition to academic work, the CSE department also has computer
-              science research programmes (for a full listing of specialities
+              addition to academic work, the CSE department also has Computer
+              Science research programmes (for a full listing of specialities
               visit Research Areas) supported through government and industry
               funding. Faculty research helps define and expand the current and
               future use of technology. <br />{" "}
@@ -81,10 +81,10 @@ function About() {
         <div className={classes.info}>
           <div>
             <p className={classes.text}>
-              The Ist International Conference on Internaltional Conference on
-              Intelligent Computing (IConIC) is being conducted by the
+              The Ist International Conference on
+              Intelligent Computing (IConIC 2022) is being conducted by the
               Department of Computer Science and Engineering, National Institute
-              of Technology, Srinagar, India (In Virtual Mode). IConIC- 2022
+              of Technology Srinagar, India (In Virtual Mode). IConIC- 2022
               aims to bring together Academicians, Researchers, Industry
               Experts, Enthusiasts, and Professionals to explore emerging trends
               and innovations, as well as discuss research findings and future
@@ -94,8 +94,8 @@ function About() {
               advancements in emerging fields of Intelligent Computing. It
               offers a common platform to an interdisciplinary group of
               researchers through a strategically designed network of premier
-              institutions across India. The conference has also Expert Panel
-              discussions and Plenary Talks. The goal of Application of
+              institutions across India. The conference will also have Expert Panel
+              discussions and Plenary Talks. The goal of the
               Internaltional Conference on Intelligent Computing (IConIC) is to
               promote and bring together the Indian and global researchers
               across the areas of Artificial Intelligence, computer vision,

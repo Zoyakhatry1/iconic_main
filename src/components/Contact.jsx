@@ -13,14 +13,14 @@ function Contact() {
           </div>
           <div className="email">
             <div className="contact-heading">Email</div>
-            <div>For any qeuery, feel free to mail us, iconic2022@nitsri.net</div>
+            <div>For any qeuery, feel free to mail us, <a href="mailto:iconic2022@nitsri.net">iconic2022@nitsri.net</a></div>
           </div>
           <div className="phone-numbers">
             <div className="contact-heading">Contact</div>
             <div className="details">
               For Registration related problems, contact:
-              <br /> Dr. Ranjeet K. Rout: <b>+91-8895125180</b> <br />
-              For Submission related problems, contact: <br /> Dr. Sparsh Sharma: <b>+91-7006232933</b>
+              <br /> Dr. Ranjeet K. Rout: <a href="tel:+91-8895125180"><b>+91-8895125180</b></a>  <br />
+              For Submission related problems, contact: <br /> Dr. Sparsh Sharma: <a href="tel:+91-7006232933"><b>+91-7006232933</b></a>
             </div>
           </div>
         </div>
