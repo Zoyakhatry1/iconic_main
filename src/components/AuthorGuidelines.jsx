@@ -129,24 +129,24 @@ function AuthorGuidelines({ trackArray }) {
                     <td rowSpan={2}>Main Conference</td>
                     <td>Paper Submission Deadlines</td>
                     <td style={{ whiteSpace: "nowrap" }}>
-                      15/07/2022 <span className="glow-text">open</span>{" "}
+                     25th June 2022 <span className="glow-text">open</span>{" "}
                     </td>
                   </tr>
                   <tr>
                     <td>Notification for Paper Acceptance</td>
-                    <td>15/07/2022</td>
+                    <td>17th July 2022</td>
                   </tr>
                   <tr>
                     <td colSpan={2}>Camera Ready Submission Deadline</td>
-                    <td>20/08/2022</td>
+                    <td>24th August 2022</td>
                   </tr>
                   <tr>
                     <td colSpan={2}>Late Registration Deadline</td>
-                    <td>20/08/2022</td>
+                    <td>25th August 2022</td>
                   </tr>
                   <tr>
                     <td colSpan={2}>Conference Dates</td>
-                    <td>28/09/2022 to 29/09/2022</td>
+                    <td>28th-29th September 2022</td>
                   </tr>
                 </tbody>
               </table>

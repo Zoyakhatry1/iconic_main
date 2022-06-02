@@ -6,14 +6,14 @@ function Contact() {
       <div className="contact-container">
         <div className="contact-details">
           <div className="address">
-            National Institute of Technology,
-            <br /> Hazratbal, Srinagar,
-            <br /> Jammu and Kashmir (UT), 190006,
+            National Institute of Technology Srinagar
+            <br />Hazratbal, Srinagar
+            <br /> Jammu and Kashmir, 190006,
             <br /> INDIA.
           </div>
           <div className="email">
             <div className="contact-heading">Email</div>
-            <div>For any qeuery, feel free to mail us, <a href="mailto:iconic2022@nitsri.net">iconic2022@nitsri.net</a></div>
+            <div>For any query, mail at: <a href="mailto:iconic2022@nitsri.net">iconic2022@nitsri.net</a></div>
           </div>
           <div className="phone-numbers">
             <div className="contact-heading">Contact</div>
