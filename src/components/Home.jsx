@@ -91,7 +91,16 @@ function Home({ scrollToTarget, trackArray }) {
           </div>
           <div className="moving-text">
             <p class="example-right">
-             Last date of paper submission - 30<sup>th</sup> June, 2022. Paper submission link: <a href="https://easychair.org/conferences/?conf=iconic20221">https://easychair.org/conferences/?conf=iconic20221</a> Last date of paper submission - 30<sup>th</sup> June, 2022. Paper submission link: <a href="https://easychair.org/conferences/?conf=iconic20221">https://easychair.org/conferences/?conf=iconic20221</a> 
+              Last date of paper submission - 30<sup>th</sup> June, 2022. Paper
+              submission link:{" "}
+              <a href="https://easychair.org/conferences/?conf=iconic20221">
+                https://easychair.org/conferences/?conf=iconic20221
+              </a>{" "}
+              Last date of paper submission - 30<sup>th</sup> June, 2022. Paper
+              submission link:{" "}
+              <a href="https://easychair.org/conferences/?conf=iconic20221">
+                https://easychair.org/conferences/?conf=iconic20221
+              </a>
             </p>
           </div>
           <div className="logos">

@@ -71,20 +71,21 @@
   animation: urmove 9s linear infinite;
 }
 @-webkit-keyframes urmove {
-  from {
-    left: 0;
+  0% {
+    transform: translate3d(5%, 0, 0);
   }
-  to {
-    left: -100%;
+
+  100% {
+    transform: translate3d(-45%, 0, 0);
   }
 }
 
 @keyframes urmove {
-  from {
-    left: 0;
+  0% {
+    transform: translate3d(5%, 0, 0);
   }
-  to {
-    left: -100%;
+  100% {
+    transform: translate3d(-45%, 0, 0);
   }
 }
 .logos {
