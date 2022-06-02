@@ -38,9 +38,11 @@ function AuthorGuidelines({ trackArray }) {
               be rejected without review.
             </p>
             <p className={classes.content}>
-              Papers must be electronically submitted to the Microsoft Research
-              paper submission portal before the deadline expires without
-              exception.
+              Papers must be electronically submitted to the{" "}
+              <a href="https://easychair.org/conferences/?conf=iconic20221">
+                Easychair Research paper submission portal
+              </a>{" "}
+              before the deadline expires without exception.
             </p>
             <p className={classes.content}>
               The paper must not exceed 12 pages in length (including all text,
@@ -71,14 +73,11 @@ function AuthorGuidelines({ trackArray }) {
           <div className={classes.points}>
             <p className={classes.content}>
               The proceedings of the conference are published by Scopus Indexed
-              ‐ Springer,
+              ‐ Springer,{" "}
               <a href="https://www.springer.com/series/7899">
-                {" "}
                 Communications in Computer and Information Science series.
               </a>{" "}
-              CCIS is abstracted/ indexed in DBLP, Google Scholar, EI-Compendex,
-              Mathematical Reviews, SCImago, Scopus. CCIS volumes are also
-              submitted for the inclusion in ISI Proceedings.
+              CCIS is abstracted/ indexed Google Scholar and Scopus.
             </p>
           </div>
 
@@ -129,7 +128,7 @@ function AuthorGuidelines({ trackArray }) {
                     <td rowSpan={2}>Main Conference</td>
                     <td>Paper Submission Deadlines</td>
                     <td style={{ whiteSpace: "nowrap" }}>
-                     25th June 2022 <span className="glow-text">open</span>{" "}
+                      25th June 2022 <span className="glow-text">open</span>{" "}
                     </td>
                   </tr>
                   <tr>

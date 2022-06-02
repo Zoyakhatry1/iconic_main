@@ -208,19 +208,18 @@ function Members2() {
               </div>
               <div className={classes.names2}>
                 <div className={classes.margin}>
-                  <p className={classes.name2}> Dr. Annu Priya</p>
-                  <p className={classes.name2}>Dr. Surbi Sharma</p>
+                  <p className={classes.name2}>Dr. Annu Priya</p>
+                  <p className={classes.name2}>Dr. Surbhi Sharma</p>
                   <p className={classes.name2}>Sania Iqbal</p>
                   <p className={classes.name2}>Sadia Showkat</p>
                   <p className={classes.name2}>Monica</p>
                   <p className={classes.name2}>Anam Iqbal</p>
-                  <p className={classes.name2}>Tausees Iqbal</p>
                 </div>
                 <div>
+                  <p className={classes.name2}>Tausees Iqbal</p>
                   <p className={classes.name2}>Mehraj Tali</p>
                   <p className={classes.name2}>Sameer Dixit</p>
                   <p className={classes.name2}>Imtiaz Ahmad</p>
-                  <p className={classes.name2}>Manzoor Ahmad Lone</p>
                   <p className={classes.name2}>Aafaq Dar</p>
                   <p className={classes.name2}>Nazir Shabbir</p>
                 </div>
