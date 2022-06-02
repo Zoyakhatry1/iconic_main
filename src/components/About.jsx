@@ -3,6 +3,7 @@ import pic from "../assets/nit_image.jpg";
 import cseimg from "../assets/cse_image.jpg";
 import classes from "../styles/About.module.css";
 import abic from "../assets/abic.jpg";
+import iit from "../assets/IIT-jammucam.png";
 
 
 function About() {
@@ -45,32 +46,20 @@ function About() {
       </div>
 
       <div className={classes.about}>
-        <h3 className={classes.heading}>Our Department</h3>
+        <h3 className={classes.heading}>About IIT JAMMU</h3>
         <div className={classes.info}>
           <div>
-            <img className={classes.image} src={cseimg} alt="nit-image" />
+            <img className={classes.image} src={iit} alt="nit-image" />
           </div>
           <div>
             <p className={classes.text}>
-              The Department of Computer Science& Engineering (CSE) embodies the
-              Institute's tradition of excellence as a world-class leader in
-              Computer Science and Engineering education and research. CSE is in
-              a period of exciting growth and opprtunity. In the current ever
-              evolving industrial scenario contents delivered to the students
-              are regularly updated by the faculty members who have themselves
-              been at the helm of path breaking research and innovations. In
-              addition to academic work, the CSE department also has Computer
-              Science research programmes (for a full listing of specialities
-              visit Research Areas) supported through government and industry
-              funding. Faculty research helps define and expand the current and
-              future use of technology. <br />{" "}
-              <span className={classes.span}>Mission and Vision : </span> At NIT
-              Srinagar, we believe that their is no dearth of scope for bright
-              and vibrant stars in the firmament. We therefore persistently
-              strive to inculcate the requisite acumen in the budding
-              researches, innovators, enterpreneurs making them thorough and
-              competent professionals, enabling them to take up and face any
-              challenge in the industry or research organisation they serve.
+            The Indian Institute of Technology Jammu was inaugurated on 6th August 2016, and welcomed the first batch of students into the campus in Paloura, Jammu. In the initial phases, the establishment of IIT Jammu was done under the mentorship of IIT Delhi.
+
+            In 2018, IIT Jammu shifted the primary operations to the Main Campus in Jagti, Nagrota. The State Government, Jammu and Kashmir has provided land for the establishment of a permanent campus of the Indian Institute of Technology in Jammu, which consists of 400 acres. Currently the Phase 1 A of the main campus, spread across 25 acres, is operational. Phase 1 B and 1 C are undergoing construction.
+            
+            The campus in Paloura currently houses the PhD scholars and is being developed into a high-end research facility.
+            
+            The main campus of the Institute is located on National Highway 44 and is about 15 kilometers from the Airport
             </p>
           </div>
         </div>

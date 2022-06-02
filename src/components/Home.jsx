@@ -75,6 +75,7 @@ function Home({ scrollToTarget, trackArray }) {
             </div>
             <h1>Intelligent Computing</h1>
             <div className="sub-text">
+              <h2 className="date-new">28 <sup>th</sup> - 29 <sup>th</sup> September, 2022</h2>
               <table>
                 <tbody>
                   <tr style={{ whiteSpace: "nowrap" }}>
@@ -208,7 +209,7 @@ function Home({ scrollToTarget, trackArray }) {
               </tr>
               <tr>
                 <td colSpan={2}>Conference Dates</td>
-                <td>28th September 2022 to 29th september 2022</td>
+                <td>28th-29th September 2022</td>
               </tr>
             </tbody>
           </table>

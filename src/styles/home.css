@@ -65,6 +65,10 @@
   width: 80%;
   color: yellow;
 }
+.date-new{
+  padding: 1rem 0;
+  color: rgb(248, 147, 5);
+}
 .example-right {
   position: absolute;
   white-space: nowrap;
