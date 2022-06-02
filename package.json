@@ -1,5 +1,6 @@
 {
   "name": "icoic_main",
+  "homepage": "http://iconic.nitsri.ac.in",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

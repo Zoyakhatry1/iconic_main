@@ -91,10 +91,7 @@ function Home({ scrollToTarget, trackArray }) {
           </div>
           <div className="moving-text">
             <p class="example-right">
-              START START ipsum dolor sit amet, consectetur adipisicing elit.
-              Error, rem iste commodi ipsum cumque temporibus ullam qui dolor
-              obcaecati facilis ducimus minima fugiat aspernatur laborum eveniet
-              adipisci libero atque END END.
+             Last date of paper submission - 30<sup>th</sup> June, 2022. Paper submission link: <a href="https://easychair.org/conferences/?conf=iconic20221">https://easychair.org/conferences/?conf=iconic20221</a> Last date of paper submission - 30<sup>th</sup> June, 2022. Paper submission link: <a href="https://easychair.org/conferences/?conf=iconic20221">https://easychair.org/conferences/?conf=iconic20221</a> 
             </p>
           </div>
           <div className="logos">
@@ -185,24 +182,24 @@ function Home({ scrollToTarget, trackArray }) {
                 <td rowSpan={2}>Main Conference</td>
                 <td>Paper Submission Deadlines</td>
                 <td style={{ whiteSpace: "nowrap" }}>
-                  15/07/2022 <span className="glow-text">open</span>{" "}
+                  25th June 2022 <span className="glow-text">open</span>{" "}
                 </td>
               </tr>
               <tr>
                 <td>Notification for Paper Acceptance</td>
-                <td>15/07/2022</td>
+                <td>17th July 2022</td>
               </tr>
               <tr>
                 <td colSpan={2}>Camera Ready Submission Deadline</td>
-                <td>20/08/2022</td>
+                <td>24th August 2022</td>
               </tr>
               <tr>
                 <td colSpan={2}>Late Registration Deadline</td>
-                <td>20/08/2022</td>
+                <td>25th August 2022</td>
               </tr>
               <tr>
                 <td colSpan={2}>Conference Dates</td>
-                <td>28/09/2022 to 29/09/2022</td>
+                <td>28th September 2022 to 29th september 2022</td>
               </tr>
             </tbody>
           </table>

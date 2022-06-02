@@ -68,7 +68,6 @@
 .example-right {
   position: absolute;
   white-space: nowrap;
-  text-transform: uppercase;
   animation: urmove 9s linear infinite;
 }
 @-webkit-keyframes urmove {
