@@ -28,16 +28,17 @@ function Registration() {
               <tbody>
                 <tr>
                   <td>Industry Experts</td>
-                  <td>₹8,000</td>
-                </tr>
-                <tr>
-                  <td>Students</td>
-                  <td>₹6,000</td>
+                  <td>₹7,000</td>
                 </tr>
                 <tr>
                   <td>Academicians</td>
-                  <td>₹7,000</td>
+                  <td>₹6,000</td>
                 </tr>
+                <tr>
+                  <td>PhD Scholars</td>
+                  <td>₹5,000</td>
+                </tr>
+                
                 <tr>
                   <td>Additional Paper (for one additional paper only)</td>
                   <td>₹4,000</td>
@@ -48,11 +49,11 @@ function Registration() {
                 </tr>
                 <tr>
                   <td>Listeners</td>
-                  <td>₹1,5000</td>
+                  <td>₹1,500</td>
                 </tr>
                 <tr>
                   <td>Foreign Authors</td>
-                  <td>$250 or €200</td>
+                  <td>$200 or €150</td>
                 </tr>
               </tbody>
             </table>
@@ -64,9 +65,9 @@ function Registration() {
           <div className={classes.linkscontent}>
             <p>
               <span className={classes.spanlink}>Registration link:</span>{" "}
-              <a href="https://cvent.me/m7q7Ma">https://cvent.me/m7q7Ma</a>{" "}
+              <a href="/">To be updated soon</a>{" "}
             </p>
-            <p>
+            {/*<p>
               <span className={classes.spanlink}>
                 To modify your registration, click:{" "}
               </span>{" "}
@@ -87,11 +88,11 @@ function Registration() {
                 (CC alexiou.2@wright.edu) for questions regarding author
                 submissions.
               </span>
-            </p>
+           </p> */}
           </div>
         </div>
 
-        <div className={classes.note}>
+          {/* <div className={classes.note}>
           <h4 className={classes.noteheading}>Please note the following:</h4>
           <p className={classes.notepara}>
             All deadlines in Cvent are set to 11:59 PM Eastern Time Zone (GMT
@@ -104,15 +105,15 @@ function Registration() {
             </a>{" "}
             for all registration inquiries/questions
           </p>
-        </div>
+            </div> */}
 
-        <div className={classes.end}>
+        {/* <div className={classes.end}>
           <p>
             One Important Note is that Author Registration requires the paper ID
             from easychair.
           </p>
-        </div>
-      </div>
+          </div> */}
+            </div> 
     </div>
   );
 }

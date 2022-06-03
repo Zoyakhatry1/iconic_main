@@ -36,7 +36,7 @@ function Members2() {
               <img className={classes.img} src={dirimg} alt="" />
             </div>
             <p className={classes.name}>
-              Prof(Dr.) Rakesh Sehgal <br /> Director, NIT Srinagar
+             <b> Prof(Dr.) Rakesh Sehgal </b> <br /> Director, NIT Srinagar
             </p>
           </Card>
 
@@ -46,7 +46,7 @@ function Members2() {
             </div>
             <p className={classes.name}>
               {" "}
-              Prof(Dr.) Manoj Singh Gaur <br />
+              <b> Prof(Dr.) Manoj Singh Gaur </b> <br />
               Director, IIT Jammu
             </p>
           </Card>
@@ -60,7 +60,7 @@ function Members2() {
               <img className={classes.img} src={hodimg} alt="" />
             </div>
             <p className={classes.name}>
-              Prof. Roohie Naaz Mir <br /> HOD, CSE , NIT Srinagar
+            <b> Prof. Roohie Naaz Mir </b> <br /> HOD, CSE , NIT Srinagar
             </p>
           </Card>
         </div>
@@ -74,7 +74,7 @@ function Members2() {
               <img className={classes.img} src={tech1} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Shaima Qureshi <br /> NIT Srinagar
+            <b> Dr. Shaima Qureshi </b> <br /> NIT Srinagar
             </p>
           </Card>
           <Card>
@@ -82,7 +82,7 @@ function Members2() {
               <img className={classes.img} src={tech2} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Dharitri Rath <br /> IIT Jammu
+            <b> Dr. Dharitri Rath </b> <br /> IIT Jammu
             </p>
           </Card>
           <Card>
@@ -90,7 +90,7 @@ function Members2() {
               <img className={classes.img} src={tech3} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Badri N subudhi <br /> IIT Jammu
+             <b> Dr. Badri N subudhi </b> <br /> IIT Jammu
             </p>
           </Card>
           <Card>
@@ -98,7 +98,7 @@ function Members2() {
               <img className={classes.img} src={tech4} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Vinit Jakhetiya <br /> IIT Jammu
+             <b> Dr. Vinit Jakhetiya </b> <br /> IIT Jammu
             </p>
           </Card>
         </div>
@@ -112,7 +112,7 @@ function Members2() {
               <img className={classes.img} src={org1} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Ranjeet Kumar Rout <br /> NIT Srinagar
+            <b> Dr. Ranjeet Kumar Rout </b> <br /> NIT Srinagar
             </p>
           </Card>
           <Card>
@@ -120,7 +120,7 @@ function Members2() {
               <img className={classes.img} src={org2} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Sparsh Sharma <br /> NIT Srinagar
+            <b> Dr. Sparsh Sharma </b><br /> NIT Srinagar
             </p>
           </Card>
           <Card>
@@ -128,7 +128,7 @@ function Members2() {
               <img className={classes.img} src={org3} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Pramod Kumar Yadav <br /> NIT Srinagar
+            <b> Dr. Pramod Kumar Yadav </b> <br /> NIT Srinagar
             </p>
           </Card>
           <Card>
@@ -136,7 +136,7 @@ function Members2() {
               <img className={classes.img} src={org4} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Veningston K <br /> NIT Srinagar
+            <b> Dr. Veningston K </b>  <br /> NIT Srinagar
             </p>
           </Card>
           <Card>
@@ -144,7 +144,7 @@ function Members2() {
               <img className={classes.img} src={org5} alt="" />
             </div>
             <p className={classes.name}>
-              Dr. Saiyed Umer <br /> Aliah University, Kolkata
+             <b>Dr. Saiyed Umer</b>  <br /> Aliah University, Kolkata
             </p>
           </Card>
         </div>
@@ -158,11 +158,11 @@ function Members2() {
             </div>
             <div className={classes.names}>
               <p className={classes.name2}>
-                {" "}
-                Dr. Ranjeet Kumar Rout (NIT Srinagar)
+          
+               <b>Dr. Ranjeet Kumar Rout </b> (NIT Srinagar)
               </p>
               <p className={classes.name2}>
-                Dr. Saiyed Umer (Aliah University,Kolkata)
+               <b>Dr. Saiyed Umer</b>  (Aliah University,Kolkata)
                 <br />
               </p>
             </div>
@@ -174,10 +174,10 @@ function Members2() {
             </div>
             <div className={classes.names}>
               <p className={classes.name2}>
-                {" "}
-                Dr. Pramod Kumar Yadav (NIT Srinagar)
+                <b>Dr. Pramod Kumar Yadav</b>
+                 (NIT Srinagar)
               </p>
-              <p className={classes.name2}>Dr. Veningston K (NIT Srinagar)</p>
+              <p className={classes.name2}><b>Dr. Veningston K</b>  (NIT Srinagar)</p>
             </div>
           </div>
 
@@ -189,12 +189,14 @@ function Members2() {
             </div>
             <div className={classes.names}>
               <p className={classes.name2}>
-                {" "}
-                Dr. Ranjeet Kumar Rout (NIT Srinagar)
+               <b>
+               Dr. Ranjeet Kumar Rout
+               </b>
+                 (NIT Srinagar)
               </p>
-              <p className={classes.name2}>Dr. Sparsh Sharma (NIT Srinagar)</p>
+              <p className={classes.name2}><b>Dr. Sparsh Sharma</b>  (NIT Srinagar)</p>
               <p className={classes.name2}>
-                Dr. Saiyed Umer (Aliah University,Kolkata){" "}
+               <b>Dr. Saiyed Umer</b>  (Aliah University,Kolkata){" "}
               </p>
             </div>
           </div>
@@ -208,20 +210,20 @@ function Members2() {
               </div>
               <div className={classes.names2}>
                 <div className={classes.margin}>
-                  <p className={classes.name2}>Dr. Annu Priya</p>
-                  <p className={classes.name2}>Dr. Surbhi Sharma</p>
-                  <p className={classes.name2}>Sania Iqbal</p>
-                  <p className={classes.name2}>Sadia Showkat</p>
-                  <p className={classes.name2}>Monica</p>
-                  <p className={classes.name2}>Anam Iqbal</p>
+                  <p className={classes.name2}><b> Dr. Annu Priya</b> </p>
+                  <p className={classes.name2}><b> Dr. Surbhi Sharma</b> </p>
+                  <p className={classes.name2}><b> Sania Iqbal</b> </p>
+                  <p className={classes.name2}><b> Sadia Showkat</b> </p>
+                  <p className={classes.name2}><b> Monica</b> </p>
+                  <p className={classes.name2}><b> Anam Iqbal</b> </p>
                 </div>
                 <div>
-                  <p className={classes.name2}>Tausees Iqbal</p>
-                  <p className={classes.name2}>Mehraj Tali</p>
-                  <p className={classes.name2}>Sameer Dixit</p>
-                  <p className={classes.name2}>Imtiaz Ahmad</p>
-                  <p className={classes.name2}>Aafaq Dar</p>
-                  <p className={classes.name2}>Nazir Shabbir</p>
+                  <p className={classes.name2}><b> Tausees Iqbal</b> </p>
+                  <p className={classes.name2}><b> Mehraj Tali</b> </p>
+                  <p className={classes.name2}><b> Sameer Dixit</b> </p>
+                  <p className={classes.name2}><b> Imtiaz Ahmad</b> </p>
+                  <p className={classes.name2}><b> Aafaq Dar</b> </p>
+                  <p className={classes.name2}><b> Nazir Shabbir</b> </p>
                 </div>
               </div>
             </div>
@@ -233,13 +235,13 @@ function Members2() {
               </div>
               <div className={classes.names2}>
                 <div className={classes.margin}>
-                  <p className={classes.name2}>Mahin Sagotra</p>
-                  <p className={classes.name2}>Yavar Mushtaq</p>
-                  <p className={classes.name2}>Isha Tamarkar</p>
+                  <p className={classes.name2}><b>Mahin Sagotra</b></p>
+                  <p className={classes.name2}><b>Yavar Mushtaq</b></p>
+                  <p className={classes.name2}><b>Isha Tamarkar</b></p>
                 </div>
                 <div>
-                  <p className={classes.name2}>Zoya Khatry</p>
-                  <p className={classes.name2}>Namita Rastogi</p>
+                  <p className={classes.name2}><b>Zoya Khatry</b></p>
+                  <p className={classes.name2}><b>Namita Rastogi</b></p>
                 </div>
               </div>
             </div>
