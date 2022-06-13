@@ -111,9 +111,9 @@ function Home({ scrollToTarget, trackArray }) {
                 alt="nit srinagar"
               />
             </div>
-            <div className="logo">
+            {/* <div className="logo">
               <img src={require("../assets/R (24).png")} alt="springer" />
-            </div>
+            </div> */}
             <div className="logo">
               <img src={require("../assets/iit-jammu.png")} alt="iit jammu" />
             </div>
