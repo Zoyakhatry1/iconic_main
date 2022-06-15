@@ -24,7 +24,7 @@ function AuthorGuidelines({ trackArray }) {
             ))}
           </div>
         </section>
-        <div className={classes.guidelines}>
+        {/* <div className={classes.guidelines}>
           <h1 className={classes.heading}>
             Instructions for Preparing Manuscripts
           </h1>
@@ -151,7 +151,8 @@ function AuthorGuidelines({ trackArray }) {
               </table>
             </div>
           </div>
-        </div>
+        
+        </div> */}
       </div>
     </div>
   );
